@@ -56,7 +56,7 @@
     "debugContext": {
         "debugData": {
             "initiationType": "NA",
-            "redirectUri": "https://trial-4299752.okta.com/enduser/callback",
+            "redirectUri": "https://dev-testcompany.okta.com/enduser/callback",
             "traceId": "81c63726-01d0-47e3-a181-3636bc7dce22",
             "requestId": "2121dc57a018b719039962a16cf0bd74",
             "dtHash": "7319bfdaa7cc8a997f0af91860a4e79a7885498daf2ee2488bf234e9a2f265bf",

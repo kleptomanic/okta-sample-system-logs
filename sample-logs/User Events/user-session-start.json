@@ -60,7 +60,7 @@
             "behaviors": "{New Geo-Location=POSITIVE, New Device=NEGATIVE, New IP=POSITIVE, New State=POSITIVE, New Country=POSITIVE, Velocity=POSITIVE, New City=POSITIVE}",
             "requestId": "3da2bfe16b2a571045085be8587e898a",
             "dtHash": "0335b48d281b79da6227d47f53cd260c60f4b125a8261f92f614b55d834c1fce",
-            "origin": "https://trial-4299752.okta.com",
+            "origin": "https://dev-testcompany.okta.com",
             "risk": "{reasons=Anomalous Location, level=MEDIUM}",
             "requestUri": "/idp/idx/challenge/answer",
             "threatSuspected": "false",
