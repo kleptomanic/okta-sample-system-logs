@@ -1,1 +1,108 @@
-{"actor": {"id": "00uryg6r869Y1HdD1697", "type": "User", "alternateId": "hariram@testcompany.com.np", "displayName": "Ram Hari Dangol", "detailEntry": null}, "client": {"userAgent": {"rawUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36", "os": "Mac OS X", "browser": "CHROME"}, "zone": "null", "device": "Computer", "id": null, "ipAddress": "62.210.95.122", "geographicalContext": {"city": "Paris", "state": "\u00cele-de-France", "country": "France", "postalCode": "75008", "geolocation": {"lat": 48.8558, "lon": 2.3494}}}, "device": null, "authenticationContext": {"authenticationProvider": null, "credentialProvider": null, "credentialType": null, "issuer": null, "interface": null, "authenticationStep": 0, "rootSessionId": "1026xqtkKFvTXqTruBK2NNBGA", "externalSessionId": "1026xqtkKFvTXqTruBK2NNBGA"}, "displayMessage": "Add user to group membership", "eventType": "group.user_membership.add", "outcome": {"result": "SUCCESS", "reason": null}, "published": "2025-06-02T18:06:58.616Z", "securityContext": {"asNumber": 12876, "asOrg": "online sas", "isp": "scaleway s.a.s.", "domain": "scw.cloud", "isProxy": true}, "severity": "INFO", "debugContext": {"debugData": {"tunnels": "[{\"anonymous\":true,\"operator\":\"VEEPN_VPN\",\"type\":\"VPN\"}]", "requestId": "aaf499f8404a7843515238198e40bdfa", "dtHash": "e09ce4ac78747847ca3e315a9cdfea648ac0962dbb24374fb3904fe2bbc32744", "requestUri": "/api/v1/groups/00grz4nqlhoe5iw0D697/users/00uryp2hh1yN1G372697", "url": "/api/v1/groups/00grz4nqlhoe5iw0D697/users/00uryp2hh1yN1G372697?"}}, "legacyEventType": "core.user_group_member.user_add", "transaction": {"type": "WEB", "id": "aaf499f8404a7843515238198e40bdfa", "detail": {}}, "uuid": "601a0c44-3fdc-11f0-b4d1-0b5490cf5ddf", "version": "0", "request": {"ipChain": [{"ip": "62.210.95.122", "geographicalContext": {"city": "Paris", "state": "\u00cele-de-France", "country": "France", "postalCode": "75008", "geolocation": {"lat": 48.8558, "lon": 2.3494}}, "version": "V4", "source": null}]}, "target": [{"id": "00uryp2hh1yN1G372697", "type": "User", "alternateId": "test@test.com", "displayName": "Test User", "detailEntry": null}, {"id": "00grz4nqlhoe5iw0D697", "type": "UserGroup", "alternateId": "unknown", "displayName": "ReadOnly", "detailEntry": null}]}
+{
+    "actor": {
+        "id": "00uryg6r869Y1HdD1697",
+        "type": "User",
+        "alternateId": "hariram@testcompany.com.np",
+        "displayName": "Ram Hari Dangol",
+        "detailEntry": null
+    },
+    "client": {
+        "userAgent": {
+            "rawUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+            "os": "Mac OS X",
+            "browser": "CHROME"
+        },
+        "zone": "null",
+        "device": "Computer",
+        "id": null,
+        "ipAddress": "62.210.95.122",
+        "geographicalContext": {
+            "city": "Paris",
+            "state": "\u00cele-de-France",
+            "country": "France",
+            "postalCode": "75008",
+            "geolocation": {
+                "lat": 48.8558,
+                "lon": 2.3494
+            }
+        }
+    },
+    "device": null,
+    "authenticationContext": {
+        "authenticationProvider": null,
+        "credentialProvider": null,
+        "credentialType": null,
+        "issuer": null,
+        "interface": null,
+        "authenticationStep": 0,
+        "rootSessionId": "1026xqtkKFvTXqTruBK2NNBGA",
+        "externalSessionId": "1026xqtkKFvTXqTruBK2NNBGA"
+    },
+    "displayMessage": "Add user to group membership",
+    "eventType": "group.user_membership.add",
+    "outcome": {
+        "result": "SUCCESS",
+        "reason": null
+    },
+    "published": "2025-06-02T18:06:58.616Z",
+    "securityContext": {
+        "asNumber": 12876,
+        "asOrg": "online sas",
+        "isp": "scaleway s.a.s.",
+        "domain": "scw.cloud",
+        "isProxy": true
+    },
+    "severity": "INFO",
+    "debugContext": {
+        "debugData": {
+            "tunnels": "[{\"anonymous\":true,\"operator\":\"VEEPN_VPN\",\"type\":\"VPN\"}]",
+            "requestId": "aaf499f8404a7843515238198e40bdfa",
+            "dtHash": "e09ce4ac78747847ca3e315a9cdfea648ac0962dbb24374fb3904fe2bbc32744",
+            "requestUri": "/api/v1/groups/00grz4nqlhoe5iw0D697/users/00uryp2hh1yN1G372697",
+            "url": "/api/v1/groups/00grz4nqlhoe5iw0D697/users/00uryp2hh1yN1G372697?"
+        }
+    },
+    "legacyEventType": "core.user_group_member.user_add",
+    "transaction": {
+        "type": "WEB",
+        "id": "aaf499f8404a7843515238198e40bdfa",
+        "detail": {}
+    },
+    "uuid": "601a0c44-3fdc-11f0-b4d1-0b5490cf5ddf",
+    "version": "0",
+    "request": {
+        "ipChain": [
+            {
+                "ip": "62.210.95.122",
+                "geographicalContext": {
+                    "city": "Paris",
+                    "state": "\u00cele-de-France",
+                    "country": "France",
+                    "postalCode": "75008",
+                    "geolocation": {
+                        "lat": 48.8558,
+                        "lon": 2.3494
+                    }
+                },
+                "version": "V4",
+                "source": null
+            }
+        ]
+    },
+    "target": [
+        {
+            "id": "00uryp2hh1yN1G372697",
+            "type": "User",
+            "alternateId": "test@test.com",
+            "displayName": "Test User",
+            "detailEntry": null
+        },
+        {
+            "id": "00grz4nqlhoe5iw0D697",
+            "type": "UserGroup",
+            "alternateId": "unknown",
+            "displayName": "ReadOnly",
+            "detailEntry": null
+        }
+    ]
+}

@@ -1,1 +1,99 @@
-{"actor": {"id": "00uryp2hh1yN1G372697", "type": "User", "alternateId": "test@test.com", "displayName": "Test User", "detailEntry": null}, "client": {"userAgent": {"rawUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36", "os": "Mac OS X", "browser": "CHROME"}, "zone": "null", "device": "Computer", "id": null, "ipAddress": "62.210.95.122", "geographicalContext": {"city": "Paris", "state": "\u00cele-de-France", "country": "France", "postalCode": "75008", "geolocation": {"lat": 48.8558, "lon": 2.3494}}}, "device": null, "authenticationContext": {"authenticationProvider": null, "credentialProvider": null, "credentialType": null, "issuer": null, "interface": null, "authenticationStep": 0, "rootSessionId": "idxOINEyKZ8TsiXzAPjEhQwOA", "externalSessionId": "idxOINEyKZ8TsiXzAPjEhQwOA"}, "displayMessage": "Max sign in attempts exceeded", "eventType": "user.account.lock", "outcome": {"result": "FAILURE", "reason": "LOCKED_OUT"}, "published": "2025-06-03T09:34:46.351Z", "securityContext": {"asNumber": 12876, "asOrg": "online sas", "isp": "scaleway s.a.s.", "domain": "scw.cloud", "isProxy": true}, "severity": "DEBUG", "debugContext": {"debugData": {"tunnels": "[{\"anonymous\":true,\"operator\":\"VEEPN_VPN\",\"type\":\"VPN\"}]", "authnRequestId": "76bc6a8eedaefccdcad2191a7653af5f", "deviceFingerprint": "98c5923bc5b8949a7240cebf8b484dab", "oktaUserAgentExtended": "okta-auth-js/7.11.0 okta-signin-widget-7.31.1", "behaviors": "{New Geo-Location=POSITIVE, New Device=POSITIVE, New IP=POSITIVE, New State=POSITIVE, New Country=POSITIVE, Velocity=POSITIVE, New City=POSITIVE}", "requestId": "9f23066007aa232b976156af22866067", "dtHash": "0335b48d281b79da6227d47f53cd260c60f4b125a8261f92f614b55d834c1fce", "risk": "{reasons=Anomalous Location, Anomalous Device, level=HIGH}", "requestUri": "/idp/idx/challenge/answer", "threatSuspected": "false", "url": "/idp/idx/challenge/answer?"}}, "legacyEventType": "core.user_auth.account_locked", "transaction": {"type": "WEB", "id": "9f23066007aa232b976156af22866067", "detail": {}}, "uuid": "fca84e41-405d-11f0-bb2b-e76845fe85e6", "version": "0", "request": {"ipChain": [{"ip": "62.210.95.122", "geographicalContext": {"city": "Paris", "state": "\u00cele-de-France", "country": "France", "postalCode": "75008", "geolocation": {"lat": 48.8558, "lon": 2.3494}}, "version": "V4", "source": null}]}, "target": null}
+{
+    "actor": {
+        "id": "00uryp2hh1yN1G372697",
+        "type": "User",
+        "alternateId": "test@test.com",
+        "displayName": "Test User",
+        "detailEntry": null
+    },
+    "client": {
+        "userAgent": {
+            "rawUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+            "os": "Mac OS X",
+            "browser": "CHROME"
+        },
+        "zone": "null",
+        "device": "Computer",
+        "id": null,
+        "ipAddress": "62.210.95.122",
+        "geographicalContext": {
+            "city": "Paris",
+            "state": "\u00cele-de-France",
+            "country": "France",
+            "postalCode": "75008",
+            "geolocation": {
+                "lat": 48.8558,
+                "lon": 2.3494
+            }
+        }
+    },
+    "device": null,
+    "authenticationContext": {
+        "authenticationProvider": null,
+        "credentialProvider": null,
+        "credentialType": null,
+        "issuer": null,
+        "interface": null,
+        "authenticationStep": 0,
+        "rootSessionId": "idxOINEyKZ8TsiXzAPjEhQwOA",
+        "externalSessionId": "idxOINEyKZ8TsiXzAPjEhQwOA"
+    },
+    "displayMessage": "Max sign in attempts exceeded",
+    "eventType": "user.account.lock",
+    "outcome": {
+        "result": "FAILURE",
+        "reason": "LOCKED_OUT"
+    },
+    "published": "2025-06-03T09:34:46.351Z",
+    "securityContext": {
+        "asNumber": 12876,
+        "asOrg": "online sas",
+        "isp": "scaleway s.a.s.",
+        "domain": "scw.cloud",
+        "isProxy": true
+    },
+    "severity": "DEBUG",
+    "debugContext": {
+        "debugData": {
+            "tunnels": "[{\"anonymous\":true,\"operator\":\"VEEPN_VPN\",\"type\":\"VPN\"}]",
+            "authnRequestId": "76bc6a8eedaefccdcad2191a7653af5f",
+            "deviceFingerprint": "98c5923bc5b8949a7240cebf8b484dab",
+            "oktaUserAgentExtended": "okta-auth-js/7.11.0 okta-signin-widget-7.31.1",
+            "behaviors": "{New Geo-Location=POSITIVE, New Device=POSITIVE, New IP=POSITIVE, New State=POSITIVE, New Country=POSITIVE, Velocity=POSITIVE, New City=POSITIVE}",
+            "requestId": "9f23066007aa232b976156af22866067",
+            "dtHash": "0335b48d281b79da6227d47f53cd260c60f4b125a8261f92f614b55d834c1fce",
+            "risk": "{reasons=Anomalous Location, Anomalous Device, level=HIGH}",
+            "requestUri": "/idp/idx/challenge/answer",
+            "threatSuspected": "false",
+            "url": "/idp/idx/challenge/answer?"
+        }
+    },
+    "legacyEventType": "core.user_auth.account_locked",
+    "transaction": {
+        "type": "WEB",
+        "id": "9f23066007aa232b976156af22866067",
+        "detail": {}
+    },
+    "uuid": "fca84e41-405d-11f0-bb2b-e76845fe85e6",
+    "version": "0",
+    "request": {
+        "ipChain": [
+            {
+                "ip": "62.210.95.122",
+                "geographicalContext": {
+                    "city": "Paris",
+                    "state": "\u00cele-de-France",
+                    "country": "France",
+                    "postalCode": "75008",
+                    "geolocation": {
+                        "lat": 48.8558,
+                        "lon": 2.3494
+                    }
+                },
+                "version": "V4",
+                "source": null
+            }
+        ]
+    },
+    "target": null
+}

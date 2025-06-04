@@ -1,1 +1,101 @@
-{"actor": {"id": "00uryg6r869Y1HdD1697", "type": "User", "alternateId": "hariram@testcompany.com.np", "displayName": "Ram Hari Dangol", "detailEntry": null}, "client": {"userAgent": {"rawUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:137.0) Gecko/20100101 Firefox/137.0", "os": "Mac OS X", "browser": "FIREFOX"}, "zone": "null", "device": "Computer", "id": null, "ipAddress": "110.44.116.44", "geographicalContext": {"city": "Kathmandu", "state": "Bagmati Province", "country": "Nepal", "postalCode": null, "geolocation": {"lat": 27.7108, "lon": 85.3251}}}, "device": null, "authenticationContext": {"authenticationProvider": null, "credentialProvider": null, "credentialType": null, "issuer": null, "interface": null, "authenticationStep": 0, "rootSessionId": "102udS-U7sZQmq6PpT1-2-veg", "externalSessionId": "102udS-U7sZQmq6PpT1-2-veg"}, "displayMessage": "Revoke API token", "eventType": "system.api_token.revoke", "outcome": {"result": "SUCCESS", "reason": null}, "published": "2025-06-02T05:31:52.555Z", "securityContext": {"asNumber": 45650, "asOrg": "via net communication ltd", "isp": "via net communication ltd.", "domain": "lrbpnepal.org", "isProxy": false}, "severity": "INFO", "debugContext": {"debugData": {"requestId": "e33b843d9216b5253822fcfa01453fd3", "dtHash": "9a2f21aad463a2b64125ab75ceeb62abbafe139ac35096f413175d4186db7751", "networkConnection": "ANYWHERE", "requestUri": "/api/internal/tokens/00T2r6hahxNy3qlU3697/revoke", "url": "/api/internal/tokens/00T2r6hahxNy3qlU3697/revoke?"}}, "legacyEventType": "api.token.revoke", "transaction": {"type": "WEB", "id": "e33b843d9216b5253822fcfa01453fd3", "detail": {}}, "uuid": "e395c45b-3f72-11f0-9b11-5fea933f6ff7", "version": "0", "request": {"ipChain": [{"ip": "110.44.116.44", "geographicalContext": {"city": "Kathmandu", "state": "Bagmati Province", "country": "Nepal", "postalCode": null, "geolocation": {"lat": 27.7108, "lon": 85.3251}}, "version": "V4", "source": null}]}, "target": [{"id": "00T2r6hahxNy3qlU3697", "type": "Token", "alternateId": "unknown", "displayName": "test", "detailEntry": null}]}
+{
+    "actor": {
+        "id": "00uryg6r869Y1HdD1697",
+        "type": "User",
+        "alternateId": "hariram@testcompany.com.np",
+        "displayName": "Ram Hari Dangol",
+        "detailEntry": null
+    },
+    "client": {
+        "userAgent": {
+            "rawUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:137.0) Gecko/20100101 Firefox/137.0",
+            "os": "Mac OS X",
+            "browser": "FIREFOX"
+        },
+        "zone": "null",
+        "device": "Computer",
+        "id": null,
+        "ipAddress": "110.44.116.44",
+        "geographicalContext": {
+            "city": "Kathmandu",
+            "state": "Bagmati Province",
+            "country": "Nepal",
+            "postalCode": null,
+            "geolocation": {
+                "lat": 27.7108,
+                "lon": 85.3251
+            }
+        }
+    },
+    "device": null,
+    "authenticationContext": {
+        "authenticationProvider": null,
+        "credentialProvider": null,
+        "credentialType": null,
+        "issuer": null,
+        "interface": null,
+        "authenticationStep": 0,
+        "rootSessionId": "102udS-U7sZQmq6PpT1-2-veg",
+        "externalSessionId": "102udS-U7sZQmq6PpT1-2-veg"
+    },
+    "displayMessage": "Revoke API token",
+    "eventType": "system.api_token.revoke",
+    "outcome": {
+        "result": "SUCCESS",
+        "reason": null
+    },
+    "published": "2025-06-02T05:31:52.555Z",
+    "securityContext": {
+        "asNumber": 45650,
+        "asOrg": "via net communication ltd",
+        "isp": "via net communication ltd.",
+        "domain": "lrbpnepal.org",
+        "isProxy": false
+    },
+    "severity": "INFO",
+    "debugContext": {
+        "debugData": {
+            "requestId": "e33b843d9216b5253822fcfa01453fd3",
+            "dtHash": "9a2f21aad463a2b64125ab75ceeb62abbafe139ac35096f413175d4186db7751",
+            "networkConnection": "ANYWHERE",
+            "requestUri": "/api/internal/tokens/00T2r6hahxNy3qlU3697/revoke",
+            "url": "/api/internal/tokens/00T2r6hahxNy3qlU3697/revoke?"
+        }
+    },
+    "legacyEventType": "api.token.revoke",
+    "transaction": {
+        "type": "WEB",
+        "id": "e33b843d9216b5253822fcfa01453fd3",
+        "detail": {}
+    },
+    "uuid": "e395c45b-3f72-11f0-9b11-5fea933f6ff7",
+    "version": "0",
+    "request": {
+        "ipChain": [
+            {
+                "ip": "110.44.116.44",
+                "geographicalContext": {
+                    "city": "Kathmandu",
+                    "state": "Bagmati Province",
+                    "country": "Nepal",
+                    "postalCode": null,
+                    "geolocation": {
+                        "lat": 27.7108,
+                        "lon": 85.3251
+                    }
+                },
+                "version": "V4",
+                "source": null
+            }
+        ]
+    },
+    "target": [
+        {
+            "id": "00T2r6hahxNy3qlU3697",
+            "type": "Token",
+            "alternateId": "unknown",
+            "displayName": "test",
+            "detailEntry": null
+        }
+    ]
+}

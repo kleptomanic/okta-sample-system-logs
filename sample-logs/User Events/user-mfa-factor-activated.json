@@ -1,7 +1,522 @@
 [
-    {"actor": {"id": "00uryg6r869Y1HdD1697", "type": "User", "alternateId": "hariram@testcompany.com.np", "displayName": "Ram Hari Dangol", "detailEntry": null}, "client": {"userAgent": {"rawUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36", "os": "Mac OS X", "browser": "CHROME"}, "zone": "null", "device": "Computer", "id": null, "ipAddress": "49.236.212.182", "geographicalContext": {"city": "Kathmandu", "state": "Bagmati Province", "country": "Nepal", "postalCode": null, "geolocation": {"lat": 27.7108, "lon": 85.3251}}}, "device": {"id": "guorygde34Y9VZk4I697", "name": "Mac14,7", "os_platform": "OSX", "os_version": "14.7.0", "managed": false, "registered": true, "device_integrator": null, "disk_encryption_type": "ALL_INTERNAL_VOLUMES", "screen_lock_type": "BIOMETRIC", "jailbreak": null, "secure_hardware_present": true}, "authenticationContext": {"authenticationProvider": null, "credentialProvider": null, "credentialType": null, "issuer": null, "interface": null, "authenticationStep": 0, "rootSessionId": "idxx1YgqdBySg6-YdjSK70-CA", "externalSessionId": "idxx1YgqdBySg6-YdjSK70-CA"}, "displayMessage": "Activate factor for user", "eventType": "user.mfa.factor.activate", "outcome": {"result": "SUCCESS", "reason": "User set up SOFT_TOKEN factor"}, "published": "2025-06-03T09:34:06.458Z", "securityContext": {"asNumber": 55915, "asOrg": "classictech pvt. ltd.", "isp": "classic tech pvt. ltd.", "domain": "prabhupay.com", "isProxy": false}, "severity": "INFO", "debugContext": {"debugData": {"traceId": "dab88f84-dbd4-4f1f-90be-137fb469d709", "authnRequestId": "e678ff8dc6880cbddb7c2a521e3adbb5", "behaviors": "{New Geo-Location=NEGATIVE, New Device=POSITIVE, New IP=NEGATIVE, New State=NEGATIVE, New Country=NEGATIVE, Velocity=NEGATIVE, New City=NEGATIVE}", "requestId": "4e07cb7d7a0357486f5d64dcc6c4c625", "dtHash": "d76a2f57e826cc0d16f780d2e006f2787932cb02fd1a51a77fe3b5c1db751629", "risk": "{reasons=Anomalous Device, level=MEDIUM}", "requestUri": "/idp/idx/challenge/answer", "threatSuspected": "false", "enrollmentMethodChallengeTime": "2025-06-03T09:33:19.153Z", "url": "/idp/idx/challenge/answer?"}}, "legacyEventType": "core.user.factor.activate", "transaction": {"type": "WEB", "id": "4e07cb7d7a0357486f5d64dcc6c4c625", "detail": {}}, "uuid": "e4e11e99-405d-11f0-8084-d5d72747b8e3", "version": "0", "request": {"ipChain": [{"ip": "49.236.212.182", "geographicalContext": {"city": "Kathmandu", "state": "Bagmati Province", "country": "Nepal", "postalCode": null, "geolocation": {"lat": 27.7108, "lon": 85.3251}}, "version": "V4", "source": null}]}, "target": [{"id": "00uryg6r869Y1HdD1697", "type": "User", "alternateId": "hariram@testcompany.com.np", "displayName": "Ram Hari Dangol", "detailEntry": null}]},
-    {"actor": {"id": "00uryp2hh1yN1G372697", "type": "User", "alternateId": "test@test.com", "displayName": "Test User", "detailEntry": null}, "client": {"userAgent": {"rawUserAgent": "0811A9866E.com.okta.android.auth/8.7.0 DeviceSDK/1.0.80 Android/15 Xiaomi/23053RN02A J2kKB331RJCeUibWMTaKmQ", "os": "Android", "browser": "UNKNOWN"}, "zone": "null", "device": "Mobile", "id": null, "ipAddress": "27.34.65.28", "geographicalContext": {"city": "Kathmandu", "state": "Bagmati Province", "country": "Nepal", "postalCode": null, "geolocation": {"lat": 27.7108, "lon": 85.3251}}}, "device": null, "authenticationContext": {"authenticationProvider": null, "credentialProvider": null, "credentialType": null, "issuer": null, "interface": null, "authenticationStep": 0, "rootSessionId": "trsA8zOPByyTNWA4FcZAplPHQ", "externalSessionId": "trsA8zOPByyTNWA4FcZAplPHQ"}, "displayMessage": "Activate factor for user", "eventType": "user.mfa.factor.activate", "outcome": {"result": "SUCCESS", "reason": "User set up SIGNED_NONCE factor"}, "published": "2025-06-02T19:20:08.030Z", "securityContext": {"asNumber": 17501, "asOrg": "dynamic allocation for broadband subscribers", "isp": "worldlink communications pvt ltd", "domain": null, "isProxy": false}, "severity": "INFO", "debugContext": {"debugData": {"traceId": "8551587e-608f-4ee9-9d3d-5cf529adaca6", "requestId": "e906e983a57d3c880048836b606cd196", "requestUri": "/idp/authenticators", "url": "/idp/authenticators?"}}, "legacyEventType": "core.user.factor.activate", "transaction": {"type": "WEB", "id": "e906e983a57d3c880048836b606cd196", "detail": {}}, "uuid": "986578d2-3fe6-11f0-89a4-810604de30f9", "version": "0", "request": {"ipChain": [{"ip": "27.34.65.28", "geographicalContext": {"city": "Kathmandu", "state": "Bagmati Province", "country": "Nepal", "postalCode": null, "geolocation": {"lat": 27.7108, "lon": 85.3251}}, "version": "V4", "source": null}]}, "target": [{"id": "00uryp2hh1yN1G372697", "type": "User", "alternateId": "test@test.com", "displayName": "Test User", "detailEntry": null}]},
-    {"actor": {"id": "00uryp2hh1yN1G372697", "type": "User", "alternateId": "test@test.com", "displayName": "Test User", "detailEntry": null}, "client": {"userAgent": {"rawUserAgent": "0811A9866E.com.okta.android.auth/8.7.0 DeviceSDK/1.0.80 Android/15 Xiaomi/23053RN02A J2kKB331RJCeUibWMTaKmQ", "os": "Android", "browser": "UNKNOWN"}, "zone": "null", "device": "Mobile", "id": null, "ipAddress": "27.34.65.28", "geographicalContext": {"city": "Kathmandu", "state": "Bagmati Province", "country": "Nepal", "postalCode": null, "geolocation": {"lat": 27.7108, "lon": 85.3251}}}, "device": null, "authenticationContext": {"authenticationProvider": null, "credentialProvider": null, "credentialType": null, "issuer": null, "interface": null, "authenticationStep": 0, "rootSessionId": "trsA8zOPByyTNWA4FcZAplPHQ", "externalSessionId": "trsA8zOPByyTNWA4FcZAplPHQ"}, "displayMessage": "Activate factor for user", "eventType": "user.mfa.factor.activate", "outcome": {"result": "SUCCESS", "reason": "User set up OKTA_VERIFY_PUSH factor"}, "published": "2025-06-02T19:20:08.033Z", "securityContext": {"asNumber": 17501, "asOrg": "dynamic allocation for broadband subscribers", "isp": "worldlink communications pvt ltd", "domain": null, "isProxy": false}, "severity": "INFO", "debugContext": {"debugData": {"traceId": "411be4ca-72ab-475e-a22d-4d1fcb857697", "requestId": "e906e983a57d3c880048836b606cd196", "requestUri": "/idp/authenticators", "url": "/idp/authenticators?"}}, "legacyEventType": "core.user.factor.activate", "transaction": {"type": "WEB", "id": "e906e983a57d3c880048836b606cd196", "detail": {}}, "uuid": "9865ee03-3fe6-11f0-89a4-810604de30f9", "version": "0", "request": {"ipChain": [{"ip": "27.34.65.28", "geographicalContext": {"city": "Kathmandu", "state": "Bagmati Province", "country": "Nepal", "postalCode": null, "geolocation": {"lat": 27.7108, "lon": 85.3251}}, "version": "V4", "source": null}]}, "target": [{"id": "00uryp2hh1yN1G372697", "type": "User", "alternateId": "test@test.com", "displayName": "Test User", "detailEntry": null}]},
-    {"actor": {"id": "00uryp2hh1yN1G372697", "type": "User", "alternateId": "test@test.com", "displayName": "Test User", "detailEntry": null}, "client": {"userAgent": {"rawUserAgent": "0811A9866E.com.okta.android.auth/8.7.0 DeviceSDK/1.0.80 Android/15 Xiaomi/23053RN02A J2kKB331RJCeUibWMTaKmQ", "os": "Android", "browser": "UNKNOWN"}, "zone": "null", "device": "Mobile", "id": null, "ipAddress": "27.34.65.28", "geographicalContext": {"city": "Kathmandu", "state": "Bagmati Province", "country": "Nepal", "postalCode": null, "geolocation": {"lat": 27.7108, "lon": 85.3251}}}, "device": null, "authenticationContext": {"authenticationProvider": null, "credentialProvider": null, "credentialType": null, "issuer": null, "interface": null, "authenticationStep": 0, "rootSessionId": "trsA8zOPByyTNWA4FcZAplPHQ", "externalSessionId": "trsA8zOPByyTNWA4FcZAplPHQ"}, "displayMessage": "Activate factor for user", "eventType": "user.mfa.factor.activate", "outcome": {"result": "SUCCESS", "reason": "User set up OKTA_SOFT_TOKEN factor"}, "published": "2025-06-02T19:20:08.036Z", "securityContext": {"asNumber": 17501, "asOrg": "dynamic allocation for broadband subscribers", "isp": "worldlink communications pvt ltd", "domain": null, "isProxy": false}, "severity": "INFO", "debugContext": {"debugData": {"traceId": "8e312651-f09e-464a-b765-cdf493b594ff", "requestId": "e906e983a57d3c880048836b606cd196", "requestUri": "/idp/authenticators", "url": "/idp/authenticators?"}}, "legacyEventType": "core.user.factor.activate", "transaction": {"type": "WEB", "id": "e906e983a57d3c880048836b606cd196", "detail": {}}, "uuid": "98666334-3fe6-11f0-89a4-810604de30f9", "version": "0", "request": {"ipChain": [{"ip": "27.34.65.28", "geographicalContext": {"city": "Kathmandu", "state": "Bagmati Province", "country": "Nepal", "postalCode": null, "geolocation": {"lat": 27.7108, "lon": 85.3251}}, "version": "V4", "source": null}]}, "target": [{"id": "00uryp2hh1yN1G372697", "type": "User", "alternateId": "test@test.com", "displayName": "Test User", "detailEntry": null}]},
-    {"actor": {"id": "00uryg6r869Y1HdD1697", "type": "User", "alternateId": "hariram@testcompany.com.np", "displayName": "Ram Hari Dangol", "detailEntry": null}, "client": {"userAgent": {"rawUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36", "os": "Mac OS X", "browser": "CHROME"}, "zone": "null", "device": "Computer", "id": null, "ipAddress": "62.210.95.122", "geographicalContext": {"city": "Paris", "state": "\u00cele-de-France", "country": "France", "postalCode": "75008", "geolocation": {"lat": 48.8558, "lon": 2.3494}}}, "device": null, "authenticationContext": {"authenticationProvider": null, "credentialProvider": null, "credentialType": null, "issuer": null, "interface": null, "authenticationStep": 0, "rootSessionId": "102ouNBiZKeRbmCd-YZneW7fg", "externalSessionId": "102ouNBiZKeRbmCd-YZneW7fg"}, "displayMessage": "Activate factor for user", "eventType": "user.mfa.factor.activate", "outcome": {"result": "SUCCESS", "reason": "User set up EMAIL_FACTOR factor"}, "published": "2025-06-02T10:25:24.563Z", "securityContext": {"asNumber": 12876, "asOrg": "online sas", "isp": "scaleway s.a.s.", "domain": "scw.cloud", "isProxy": true}, "severity": "INFO", "debugContext": {"debugData": {"traceId": "607fa373-9f39-49ce-9002-887672171aaa", "tunnels": "[{\"anonymous\":true,\"operator\":\"VEEPN_VPN\",\"type\":\"VPN\"}]", "requestId": "ff419328003d0714d6886a870e6bcecc", "dtHash": "e09ce4ac78747847ca3e315a9cdfea648ac0962dbb24374fb3904fe2bbc32744", "requestUri": "/api/v1/users", "url": "/api/v1/users?activate=true"}}, "legacyEventType": "core.user.factor.activate", "transaction": {"type": "WEB", "id": "ff419328003d0714d6886a870e6bcecc", "detail": {}}, "uuid": "e528eb2b-3f9b-11f0-a1c3-b7f1cc7758c8", "version": "0", "request": {"ipChain": [{"ip": "62.210.95.122", "geographicalContext": {"city": "Paris", "state": "\u00cele-de-France", "country": "France", "postalCode": "75008", "geolocation": {"lat": 48.8558, "lon": 2.3494}}, "version": "V4", "source": null}]}, "target": [{"id": "00uryp2hh1yN1G372697", "type": "User", "alternateId": "test@test.com", "displayName": "Test User", "detailEntry": null}]}
+    {
+        "actor": {
+            "id": "00uryg6r869Y1HdD1697",
+            "type": "User",
+            "alternateId": "hariram@testcompany.com.np",
+            "displayName": "Ram Hari Dangol",
+            "detailEntry": null
+        },
+        "client": {
+            "userAgent": {
+                "rawUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+                "os": "Mac OS X",
+                "browser": "CHROME"
+            },
+            "zone": "null",
+            "device": "Computer",
+            "id": null,
+            "ipAddress": "49.236.212.182",
+            "geographicalContext": {
+                "city": "Kathmandu",
+                "state": "Bagmati Province",
+                "country": "Nepal",
+                "postalCode": null,
+                "geolocation": {
+                    "lat": 27.7108,
+                    "lon": 85.3251
+                }
+            }
+        },
+        "device": {
+            "id": "guorygde34Y9VZk4I697",
+            "name": "Mac14,7",
+            "os_platform": "OSX",
+            "os_version": "14.7.0",
+            "managed": false,
+            "registered": true,
+            "device_integrator": null,
+            "disk_encryption_type": "ALL_INTERNAL_VOLUMES",
+            "screen_lock_type": "BIOMETRIC",
+            "jailbreak": null,
+            "secure_hardware_present": true
+        },
+        "authenticationContext": {
+            "authenticationProvider": null,
+            "credentialProvider": null,
+            "credentialType": null,
+            "issuer": null,
+            "interface": null,
+            "authenticationStep": 0,
+            "rootSessionId": "idxx1YgqdBySg6-YdjSK70-CA",
+            "externalSessionId": "idxx1YgqdBySg6-YdjSK70-CA"
+        },
+        "displayMessage": "Activate factor for user",
+        "eventType": "user.mfa.factor.activate",
+        "outcome": {
+            "result": "SUCCESS",
+            "reason": "User set up SOFT_TOKEN factor"
+        },
+        "published": "2025-06-03T09:34:06.458Z",
+        "securityContext": {
+            "asNumber": 55915,
+            "asOrg": "classictech pvt. ltd.",
+            "isp": "classic tech pvt. ltd.",
+            "domain": "prabhupay.com",
+            "isProxy": false
+        },
+        "severity": "INFO",
+        "debugContext": {
+            "debugData": {
+                "traceId": "dab88f84-dbd4-4f1f-90be-137fb469d709",
+                "authnRequestId": "e678ff8dc6880cbddb7c2a521e3adbb5",
+                "behaviors": "{New Geo-Location=NEGATIVE, New Device=POSITIVE, New IP=NEGATIVE, New State=NEGATIVE, New Country=NEGATIVE, Velocity=NEGATIVE, New City=NEGATIVE}",
+                "requestId": "4e07cb7d7a0357486f5d64dcc6c4c625",
+                "dtHash": "d76a2f57e826cc0d16f780d2e006f2787932cb02fd1a51a77fe3b5c1db751629",
+                "risk": "{reasons=Anomalous Device, level=MEDIUM}",
+                "requestUri": "/idp/idx/challenge/answer",
+                "threatSuspected": "false",
+                "enrollmentMethodChallengeTime": "2025-06-03T09:33:19.153Z",
+                "url": "/idp/idx/challenge/answer?"
+            }
+        },
+        "legacyEventType": "core.user.factor.activate",
+        "transaction": {
+            "type": "WEB",
+            "id": "4e07cb7d7a0357486f5d64dcc6c4c625",
+            "detail": {}
+        },
+        "uuid": "e4e11e99-405d-11f0-8084-d5d72747b8e3",
+        "version": "0",
+        "request": {
+            "ipChain": [
+                {
+                    "ip": "49.236.212.182",
+                    "geographicalContext": {
+                        "city": "Kathmandu",
+                        "state": "Bagmati Province",
+                        "country": "Nepal",
+                        "postalCode": null,
+                        "geolocation": {
+                            "lat": 27.7108,
+                            "lon": 85.3251
+                        }
+                    },
+                    "version": "V4",
+                    "source": null
+                }
+            ]
+        },
+        "target": [
+            {
+                "id": "00uryg6r869Y1HdD1697",
+                "type": "User",
+                "alternateId": "hariram@testcompany.com.np",
+                "displayName": "Ram Hari Dangol",
+                "detailEntry": null
+            }
+        ]
+    },
+    {
+        "actor": {
+            "id": "00uryp2hh1yN1G372697",
+            "type": "User",
+            "alternateId": "test@test.com",
+            "displayName": "Test User",
+            "detailEntry": null
+        },
+        "client": {
+            "userAgent": {
+                "rawUserAgent": "0811A9866E.com.okta.android.auth/8.7.0 DeviceSDK/1.0.80 Android/15 Xiaomi/23053RN02A J2kKB331RJCeUibWMTaKmQ",
+                "os": "Android",
+                "browser": "UNKNOWN"
+            },
+            "zone": "null",
+            "device": "Mobile",
+            "id": null,
+            "ipAddress": "27.34.65.28",
+            "geographicalContext": {
+                "city": "Kathmandu",
+                "state": "Bagmati Province",
+                "country": "Nepal",
+                "postalCode": null,
+                "geolocation": {
+                    "lat": 27.7108,
+                    "lon": 85.3251
+                }
+            }
+        },
+        "device": null,
+        "authenticationContext": {
+            "authenticationProvider": null,
+            "credentialProvider": null,
+            "credentialType": null,
+            "issuer": null,
+            "interface": null,
+            "authenticationStep": 0,
+            "rootSessionId": "trsA8zOPByyTNWA4FcZAplPHQ",
+            "externalSessionId": "trsA8zOPByyTNWA4FcZAplPHQ"
+        },
+        "displayMessage": "Activate factor for user",
+        "eventType": "user.mfa.factor.activate",
+        "outcome": {
+            "result": "SUCCESS",
+            "reason": "User set up SIGNED_NONCE factor"
+        },
+        "published": "2025-06-02T19:20:08.030Z",
+        "securityContext": {
+            "asNumber": 17501,
+            "asOrg": "dynamic allocation for broadband subscribers",
+            "isp": "worldlink communications pvt ltd",
+            "domain": null,
+            "isProxy": false
+        },
+        "severity": "INFO",
+        "debugContext": {
+            "debugData": {
+                "traceId": "8551587e-608f-4ee9-9d3d-5cf529adaca6",
+                "requestId": "e906e983a57d3c880048836b606cd196",
+                "requestUri": "/idp/authenticators",
+                "url": "/idp/authenticators?"
+            }
+        },
+        "legacyEventType": "core.user.factor.activate",
+        "transaction": {
+            "type": "WEB",
+            "id": "e906e983a57d3c880048836b606cd196",
+            "detail": {}
+        },
+        "uuid": "986578d2-3fe6-11f0-89a4-810604de30f9",
+        "version": "0",
+        "request": {
+            "ipChain": [
+                {
+                    "ip": "27.34.65.28",
+                    "geographicalContext": {
+                        "city": "Kathmandu",
+                        "state": "Bagmati Province",
+                        "country": "Nepal",
+                        "postalCode": null,
+                        "geolocation": {
+                            "lat": 27.7108,
+                            "lon": 85.3251
+                        }
+                    },
+                    "version": "V4",
+                    "source": null
+                }
+            ]
+        },
+        "target": [
+            {
+                "id": "00uryp2hh1yN1G372697",
+                "type": "User",
+                "alternateId": "test@test.com",
+                "displayName": "Test User",
+                "detailEntry": null
+            }
+        ]
+    },
+    {
+        "actor": {
+            "id": "00uryp2hh1yN1G372697",
+            "type": "User",
+            "alternateId": "test@test.com",
+            "displayName": "Test User",
+            "detailEntry": null
+        },
+        "client": {
+            "userAgent": {
+                "rawUserAgent": "0811A9866E.com.okta.android.auth/8.7.0 DeviceSDK/1.0.80 Android/15 Xiaomi/23053RN02A J2kKB331RJCeUibWMTaKmQ",
+                "os": "Android",
+                "browser": "UNKNOWN"
+            },
+            "zone": "null",
+            "device": "Mobile",
+            "id": null,
+            "ipAddress": "27.34.65.28",
+            "geographicalContext": {
+                "city": "Kathmandu",
+                "state": "Bagmati Province",
+                "country": "Nepal",
+                "postalCode": null,
+                "geolocation": {
+                    "lat": 27.7108,
+                    "lon": 85.3251
+                }
+            }
+        },
+        "device": null,
+        "authenticationContext": {
+            "authenticationProvider": null,
+            "credentialProvider": null,
+            "credentialType": null,
+            "issuer": null,
+            "interface": null,
+            "authenticationStep": 0,
+            "rootSessionId": "trsA8zOPByyTNWA4FcZAplPHQ",
+            "externalSessionId": "trsA8zOPByyTNWA4FcZAplPHQ"
+        },
+        "displayMessage": "Activate factor for user",
+        "eventType": "user.mfa.factor.activate",
+        "outcome": {
+            "result": "SUCCESS",
+            "reason": "User set up OKTA_VERIFY_PUSH factor"
+        },
+        "published": "2025-06-02T19:20:08.033Z",
+        "securityContext": {
+            "asNumber": 17501,
+            "asOrg": "dynamic allocation for broadband subscribers",
+            "isp": "worldlink communications pvt ltd",
+            "domain": null,
+            "isProxy": false
+        },
+        "severity": "INFO",
+        "debugContext": {
+            "debugData": {
+                "traceId": "411be4ca-72ab-475e-a22d-4d1fcb857697",
+                "requestId": "e906e983a57d3c880048836b606cd196",
+                "requestUri": "/idp/authenticators",
+                "url": "/idp/authenticators?"
+            }
+        },
+        "legacyEventType": "core.user.factor.activate",
+        "transaction": {
+            "type": "WEB",
+            "id": "e906e983a57d3c880048836b606cd196",
+            "detail": {}
+        },
+        "uuid": "9865ee03-3fe6-11f0-89a4-810604de30f9",
+        "version": "0",
+        "request": {
+            "ipChain": [
+                {
+                    "ip": "27.34.65.28",
+                    "geographicalContext": {
+                        "city": "Kathmandu",
+                        "state": "Bagmati Province",
+                        "country": "Nepal",
+                        "postalCode": null,
+                        "geolocation": {
+                            "lat": 27.7108,
+                            "lon": 85.3251
+                        }
+                    },
+                    "version": "V4",
+                    "source": null
+                }
+            ]
+        },
+        "target": [
+            {
+                "id": "00uryp2hh1yN1G372697",
+                "type": "User",
+                "alternateId": "test@test.com",
+                "displayName": "Test User",
+                "detailEntry": null
+            }
+        ]
+    },
+    {
+        "actor": {
+            "id": "00uryp2hh1yN1G372697",
+            "type": "User",
+            "alternateId": "test@test.com",
+            "displayName": "Test User",
+            "detailEntry": null
+        },
+        "client": {
+            "userAgent": {
+                "rawUserAgent": "0811A9866E.com.okta.android.auth/8.7.0 DeviceSDK/1.0.80 Android/15 Xiaomi/23053RN02A J2kKB331RJCeUibWMTaKmQ",
+                "os": "Android",
+                "browser": "UNKNOWN"
+            },
+            "zone": "null",
+            "device": "Mobile",
+            "id": null,
+            "ipAddress": "27.34.65.28",
+            "geographicalContext": {
+                "city": "Kathmandu",
+                "state": "Bagmati Province",
+                "country": "Nepal",
+                "postalCode": null,
+                "geolocation": {
+                    "lat": 27.7108,
+                    "lon": 85.3251
+                }
+            }
+        },
+        "device": null,
+        "authenticationContext": {
+            "authenticationProvider": null,
+            "credentialProvider": null,
+            "credentialType": null,
+            "issuer": null,
+            "interface": null,
+            "authenticationStep": 0,
+            "rootSessionId": "trsA8zOPByyTNWA4FcZAplPHQ",
+            "externalSessionId": "trsA8zOPByyTNWA4FcZAplPHQ"
+        },
+        "displayMessage": "Activate factor for user",
+        "eventType": "user.mfa.factor.activate",
+        "outcome": {
+            "result": "SUCCESS",
+            "reason": "User set up OKTA_SOFT_TOKEN factor"
+        },
+        "published": "2025-06-02T19:20:08.036Z",
+        "securityContext": {
+            "asNumber": 17501,
+            "asOrg": "dynamic allocation for broadband subscribers",
+            "isp": "worldlink communications pvt ltd",
+            "domain": null,
+            "isProxy": false
+        },
+        "severity": "INFO",
+        "debugContext": {
+            "debugData": {
+                "traceId": "8e312651-f09e-464a-b765-cdf493b594ff",
+                "requestId": "e906e983a57d3c880048836b606cd196",
+                "requestUri": "/idp/authenticators",
+                "url": "/idp/authenticators?"
+            }
+        },
+        "legacyEventType": "core.user.factor.activate",
+        "transaction": {
+            "type": "WEB",
+            "id": "e906e983a57d3c880048836b606cd196",
+            "detail": {}
+        },
+        "uuid": "98666334-3fe6-11f0-89a4-810604de30f9",
+        "version": "0",
+        "request": {
+            "ipChain": [
+                {
+                    "ip": "27.34.65.28",
+                    "geographicalContext": {
+                        "city": "Kathmandu",
+                        "state": "Bagmati Province",
+                        "country": "Nepal",
+                        "postalCode": null,
+                        "geolocation": {
+                            "lat": 27.7108,
+                            "lon": 85.3251
+                        }
+                    },
+                    "version": "V4",
+                    "source": null
+                }
+            ]
+        },
+        "target": [
+            {
+                "id": "00uryp2hh1yN1G372697",
+                "type": "User",
+                "alternateId": "test@test.com",
+                "displayName": "Test User",
+                "detailEntry": null
+            }
+        ]
+    },
+    {
+        "actor": {
+            "id": "00uryg6r869Y1HdD1697",
+            "type": "User",
+            "alternateId": "hariram@testcompany.com.np",
+            "displayName": "Ram Hari Dangol",
+            "detailEntry": null
+        },
+        "client": {
+            "userAgent": {
+                "rawUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+                "os": "Mac OS X",
+                "browser": "CHROME"
+            },
+            "zone": "null",
+            "device": "Computer",
+            "id": null,
+            "ipAddress": "62.210.95.122",
+            "geographicalContext": {
+                "city": "Paris",
+                "state": "\u00cele-de-France",
+                "country": "France",
+                "postalCode": "75008",
+                "geolocation": {
+                    "lat": 48.8558,
+                    "lon": 2.3494
+                }
+            }
+        },
+        "device": null,
+        "authenticationContext": {
+            "authenticationProvider": null,
+            "credentialProvider": null,
+            "credentialType": null,
+            "issuer": null,
+            "interface": null,
+            "authenticationStep": 0,
+            "rootSessionId": "102ouNBiZKeRbmCd-YZneW7fg",
+            "externalSessionId": "102ouNBiZKeRbmCd-YZneW7fg"
+        },
+        "displayMessage": "Activate factor for user",
+        "eventType": "user.mfa.factor.activate",
+        "outcome": {
+            "result": "SUCCESS",
+            "reason": "User set up EMAIL_FACTOR factor"
+        },
+        "published": "2025-06-02T10:25:24.563Z",
+        "securityContext": {
+            "asNumber": 12876,
+            "asOrg": "online sas",
+            "isp": "scaleway s.a.s.",
+            "domain": "scw.cloud",
+            "isProxy": true
+        },
+        "severity": "INFO",
+        "debugContext": {
+            "debugData": {
+                "traceId": "607fa373-9f39-49ce-9002-887672171aaa",
+                "tunnels": "[{\"anonymous\":true,\"operator\":\"VEEPN_VPN\",\"type\":\"VPN\"}]",
+                "requestId": "ff419328003d0714d6886a870e6bcecc",
+                "dtHash": "e09ce4ac78747847ca3e315a9cdfea648ac0962dbb24374fb3904fe2bbc32744",
+                "requestUri": "/api/v1/users",
+                "url": "/api/v1/users?activate=true"
+            }
+        },
+        "legacyEventType": "core.user.factor.activate",
+        "transaction": {
+            "type": "WEB",
+            "id": "ff419328003d0714d6886a870e6bcecc",
+            "detail": {}
+        },
+        "uuid": "e528eb2b-3f9b-11f0-a1c3-b7f1cc7758c8",
+        "version": "0",
+        "request": {
+            "ipChain": [
+                {
+                    "ip": "62.210.95.122",
+                    "geographicalContext": {
+                        "city": "Paris",
+                        "state": "\u00cele-de-France",
+                        "country": "France",
+                        "postalCode": "75008",
+                        "geolocation": {
+                            "lat": 48.8558,
+                            "lon": 2.3494
+                        }
+                    },
+                    "version": "V4",
+                    "source": null
+                }
+            ]
+        },
+        "target": [
+            {
+                "id": "00uryp2hh1yN1G372697",
+                "type": "User",
+                "alternateId": "test@test.com",
+                "displayName": "Test User",
+                "detailEntry": null
+            }
+        ]
+    }
 ]

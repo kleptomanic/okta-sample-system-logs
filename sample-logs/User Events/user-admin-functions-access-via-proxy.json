@@ -1,1 +1,104 @@
-{"actor": {"id": "00uryg6r869Y1HdD1697", "type": "User", "alternateId": "hariram@testcompany.com.np", "displayName": "Ram Hari Dangol", "detailEntry": null}, "client": {"userAgent": {"rawUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36", "os": "Mac OS X", "browser": "CHROME"}, "zone": "null", "device": "Computer", "id": null, "ipAddress": "62.210.95.122", "geographicalContext": {"city": "Paris", "state": "\u00cele-de-France", "country": "France", "postalCode": "75008", "geolocation": {"lat": 48.8558, "lon": 2.3494}}}, "device": null, "authenticationContext": {"authenticationProvider": null, "credentialProvider": null, "credentialType": null, "issuer": null, "interface": null, "authenticationStep": 0, "rootSessionId": "102ouNBiZKeRbmCd-YZneW7fg", "externalSessionId": "102ouNBiZKeRbmCd-YZneW7fg"}, "displayMessage": "User accessing Okta admin app", "eventType": "user.session.access_admin_app", "outcome": {"result": "SUCCESS", "reason": null}, "published": "2025-06-02T10:34:45.083Z", "securityContext": {"asNumber": 12876, "asOrg": "online sas", "isp": "scaleway s.a.s.", "domain": "scw.cloud", "isProxy": true}, "severity": "INFO", "debugContext": {"debugData": {"traceId": "721a8b34-4b30-48ca-bd5f-bd2d94b68ac3", "tunnels": "[{\"anonymous\":true,\"operator\":\"VEEPN_VPN\",\"type\":\"VPN\"}]", "requestId": "b12d58f3938e79a0aaf74e618d0aa5b7", "dtHash": "e09ce4ac78747847ca3e315a9cdfea648ac0962dbb24374fb3904fe2bbc32744", "idpType": "OKTA", "requestUri": "/admin/sso/callback", "threatSuspected": "false", "url": "/admin/sso/callback?code=******&state=dEqjoVTLdqJ4RnOZkoqrvONRvwR3-9LH"}}, "legacyEventType": "app.admin.sso.login.success", "transaction": {"type": "WEB", "id": "b12d58f3938e79a0aaf74e618d0aa5b7", "detail": {}}, "uuid": "33417b63-3f9d-11f0-b22c-07dabf4bb4b9", "version": "0", "request": {"ipChain": [{"ip": "62.210.95.122", "geographicalContext": {"city": "Paris", "state": "\u00cele-de-France", "country": "France", "postalCode": "75008", "geolocation": {"lat": 48.8558, "lon": 2.3494}}, "version": "V4", "source": null}]}, "target": [{"id": "00uryg6r869Y1HdD1697", "type": "AppUser", "alternateId": "hariram@testcompany.com.np", "displayName": "Ram Hari Dangol", "detailEntry": null}]}
+{
+    "actor": {
+        "id": "00uryg6r869Y1HdD1697",
+        "type": "User",
+        "alternateId": "hariram@testcompany.com.np",
+        "displayName": "Ram Hari Dangol",
+        "detailEntry": null
+    },
+    "client": {
+        "userAgent": {
+            "rawUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+            "os": "Mac OS X",
+            "browser": "CHROME"
+        },
+        "zone": "null",
+        "device": "Computer",
+        "id": null,
+        "ipAddress": "62.210.95.122",
+        "geographicalContext": {
+            "city": "Paris",
+            "state": "\u00cele-de-France",
+            "country": "France",
+            "postalCode": "75008",
+            "geolocation": {
+                "lat": 48.8558,
+                "lon": 2.3494
+            }
+        }
+    },
+    "device": null,
+    "authenticationContext": {
+        "authenticationProvider": null,
+        "credentialProvider": null,
+        "credentialType": null,
+        "issuer": null,
+        "interface": null,
+        "authenticationStep": 0,
+        "rootSessionId": "102ouNBiZKeRbmCd-YZneW7fg",
+        "externalSessionId": "102ouNBiZKeRbmCd-YZneW7fg"
+    },
+    "displayMessage": "User accessing Okta admin app",
+    "eventType": "user.session.access_admin_app",
+    "outcome": {
+        "result": "SUCCESS",
+        "reason": null
+    },
+    "published": "2025-06-02T10:34:45.083Z",
+    "securityContext": {
+        "asNumber": 12876,
+        "asOrg": "online sas",
+        "isp": "scaleway s.a.s.",
+        "domain": "scw.cloud",
+        "isProxy": true
+    },
+    "severity": "INFO",
+    "debugContext": {
+        "debugData": {
+            "traceId": "721a8b34-4b30-48ca-bd5f-bd2d94b68ac3",
+            "tunnels": "[{\"anonymous\":true,\"operator\":\"VEEPN_VPN\",\"type\":\"VPN\"}]",
+            "requestId": "b12d58f3938e79a0aaf74e618d0aa5b7",
+            "dtHash": "e09ce4ac78747847ca3e315a9cdfea648ac0962dbb24374fb3904fe2bbc32744",
+            "idpType": "OKTA",
+            "requestUri": "/admin/sso/callback",
+            "threatSuspected": "false",
+            "url": "/admin/sso/callback?code=******&state=dEqjoVTLdqJ4RnOZkoqrvONRvwR3-9LH"
+        }
+    },
+    "legacyEventType": "app.admin.sso.login.success",
+    "transaction": {
+        "type": "WEB",
+        "id": "b12d58f3938e79a0aaf74e618d0aa5b7",
+        "detail": {}
+    },
+    "uuid": "33417b63-3f9d-11f0-b22c-07dabf4bb4b9",
+    "version": "0",
+    "request": {
+        "ipChain": [
+            {
+                "ip": "62.210.95.122",
+                "geographicalContext": {
+                    "city": "Paris",
+                    "state": "\u00cele-de-France",
+                    "country": "France",
+                    "postalCode": "75008",
+                    "geolocation": {
+                        "lat": 48.8558,
+                        "lon": 2.3494
+                    }
+                },
+                "version": "V4",
+                "source": null
+            }
+        ]
+    },
+    "target": [
+        {
+            "id": "00uryg6r869Y1HdD1697",
+            "type": "AppUser",
+            "alternateId": "hariram@testcompany.com.np",
+            "displayName": "Ram Hari Dangol",
+            "detailEntry": null
+        }
+    ]
+}

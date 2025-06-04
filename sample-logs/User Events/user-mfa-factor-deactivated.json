@@ -1,5 +1,347 @@
 [
-    {"actor": {"id": "00uryp2hh1yN1G372697", "type": "User", "alternateId": "test@test.com", "displayName": "Test User", "detailEntry": null}, "client": {"userAgent": {"rawUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36", "os": "Mac OS X", "browser": "CHROME"}, "zone": "null", "device": "Computer", "id": null, "ipAddress": "49.236.212.182", "geographicalContext": {"city": "Kathmandu", "state": "Bagmati Province", "country": "Nepal", "postalCode": null, "geolocation": {"lat": 27.7108, "lon": 85.3251}}}, "device": {"id": "guorygde34Y9VZk4I697", "name": "Mac14,7", "os_platform": "OSX", "os_version": "14.7.0", "managed": false, "registered": true, "device_integrator": null, "disk_encryption_type": "ALL_INTERNAL_VOLUMES", "screen_lock_type": "BIOMETRIC", "jailbreak": null, "secure_hardware_present": true}, "authenticationContext": {"authenticationProvider": null, "credentialProvider": null, "credentialType": null, "issuer": null, "interface": null, "authenticationStep": 0, "rootSessionId": "idxQXFSBIR0RB65HQqImfoKWg", "externalSessionId": "idxQXFSBIR0RB65HQqImfoKWg"}, "displayMessage": "Reset factor for user", "eventType": "user.mfa.factor.deactivate", "outcome": {"result": "SUCCESS", "reason": "User reset SIGNED_NONCE factor"}, "published": "2025-06-03T06:13:32.683Z", "securityContext": {"asNumber": 55915, "asOrg": "classictech pvt. ltd.", "isp": "classic tech pvt. ltd.", "domain": "prabhupay.com", "isProxy": false}, "severity": "INFO", "debugContext": {"debugData": {"authnRequestId": "22d2efed8033b0f8723b498084010edf", "requestId": "928bcfd59b3f86ba26fce5cb567b2d6d", "dtHash": "d76a2f57e826cc0d16f780d2e006f2787932cb02fd1a51a77fe3b5c1db751629", "requestUri": "/idp/idx/authenticators/poll", "threatSuspected": "false", "enrollmentMethodChallengeTime": "2025-06-03T06:13:28.410Z", "url": "/idp/idx/authenticators/poll?"}}, "legacyEventType": "core.user.factor.deactivate", "transaction": {"type": "WEB", "id": "928bcfd59b3f86ba26fce5cb567b2d6d", "detail": {}}, "uuid": "e030c627-4041-11f0-a216-67ff8c2ff008", "version": "0", "request": {"ipChain": [{"ip": "49.236.212.182", "geographicalContext": {"city": "Kathmandu", "state": "Bagmati Province", "country": "Nepal", "postalCode": null, "geolocation": {"lat": 27.7108, "lon": 85.3251}}, "version": "V4", "source": null}]}, "target": [{"id": "00uryp2hh1yN1G372697", "type": "User", "alternateId": "test@test.com", "displayName": "Test User", "detailEntry": null}]},
-    {"actor": {"id": "00uryp2hh1yN1G372697", "type": "User", "alternateId": "test@test.com", "displayName": "Test User", "detailEntry": null}, "client": {"userAgent": {"rawUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36", "os": "Mac OS X", "browser": "CHROME"}, "zone": "null", "device": "Computer", "id": null, "ipAddress": "49.236.212.182", "geographicalContext": {"city": "Kathmandu", "state": "Bagmati Province", "country": "Nepal", "postalCode": null, "geolocation": {"lat": 27.7108, "lon": 85.3251}}}, "device": {"id": "guorygde34Y9VZk4I697", "name": "Mac14,7", "os_platform": "OSX", "os_version": "14.7.0", "managed": false, "registered": true, "device_integrator": null, "disk_encryption_type": "ALL_INTERNAL_VOLUMES", "screen_lock_type": "BIOMETRIC", "jailbreak": null, "secure_hardware_present": true}, "authenticationContext": {"authenticationProvider": null, "credentialProvider": null, "credentialType": null, "issuer": null, "interface": null, "authenticationStep": 0, "rootSessionId": "idxQXFSBIR0RB65HQqImfoKWg", "externalSessionId": "idxQXFSBIR0RB65HQqImfoKWg"}, "displayMessage": "Reset factor for user", "eventType": "user.mfa.factor.deactivate", "outcome": {"result": "SUCCESS", "reason": "User reset OKTA_VERIFY_PUSH factor"}, "published": "2025-06-03T06:13:32.685Z", "securityContext": {"asNumber": 55915, "asOrg": "classictech pvt. ltd.", "isp": "classic tech pvt. ltd.", "domain": "prabhupay.com", "isProxy": false}, "severity": "INFO", "debugContext": {"debugData": {"authnRequestId": "22d2efed8033b0f8723b498084010edf", "requestId": "928bcfd59b3f86ba26fce5cb567b2d6d", "dtHash": "d76a2f57e826cc0d16f780d2e006f2787932cb02fd1a51a77fe3b5c1db751629", "requestUri": "/idp/idx/authenticators/poll", "threatSuspected": "false", "enrollmentMethodChallengeTime": "2025-06-03T06:13:28.410Z", "url": "/idp/idx/authenticators/poll?"}}, "legacyEventType": "core.user.factor.deactivate", "transaction": {"type": "WEB", "id": "928bcfd59b3f86ba26fce5cb567b2d6d", "detail": {}}, "uuid": "e0311448-4041-11f0-a216-67ff8c2ff008", "version": "0", "request": {"ipChain": [{"ip": "49.236.212.182", "geographicalContext": {"city": "Kathmandu", "state": "Bagmati Province", "country": "Nepal", "postalCode": null, "geolocation": {"lat": 27.7108, "lon": 85.3251}}, "version": "V4", "source": null}]}, "target": [{"id": "00uryp2hh1yN1G372697", "type": "User", "alternateId": "test@test.com", "displayName": "Test User", "detailEntry": null}]},
-    {"actor": {"id": "00uryp2hh1yN1G372697", "type": "User", "alternateId": "test@test.com", "displayName": "Test User", "detailEntry": null}, "client": {"userAgent": {"rawUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36", "os": "Mac OS X", "browser": "CHROME"}, "zone": "null", "device": "Computer", "id": null, "ipAddress": "49.236.212.182", "geographicalContext": {"city": "Kathmandu", "state": "Bagmati Province", "country": "Nepal", "postalCode": null, "geolocation": {"lat": 27.7108, "lon": 85.3251}}}, "device": {"id": "guorygde34Y9VZk4I697", "name": "Mac14,7", "os_platform": "OSX", "os_version": "14.7.0", "managed": false, "registered": true, "device_integrator": null, "disk_encryption_type": "ALL_INTERNAL_VOLUMES", "screen_lock_type": "BIOMETRIC", "jailbreak": null, "secure_hardware_present": true}, "authenticationContext": {"authenticationProvider": null, "credentialProvider": null, "credentialType": null, "issuer": null, "interface": null, "authenticationStep": 0, "rootSessionId": "idxQXFSBIR0RB65HQqImfoKWg", "externalSessionId": "idxQXFSBIR0RB65HQqImfoKWg"}, "displayMessage": "Reset factor for user", "eventType": "user.mfa.factor.deactivate", "outcome": {"result": "SUCCESS", "reason": "User reset OKTA_SOFT_TOKEN factor"}, "published": "2025-06-03T06:13:32.687Z", "securityContext": {"asNumber": 55915, "asOrg": "classictech pvt. ltd.", "isp": "classic tech pvt. ltd.", "domain": "prabhupay.com", "isProxy": false}, "severity": "INFO", "debugContext": {"debugData": {"authnRequestId": "22d2efed8033b0f8723b498084010edf", "requestId": "928bcfd59b3f86ba26fce5cb567b2d6d", "dtHash": "d76a2f57e826cc0d16f780d2e006f2787932cb02fd1a51a77fe3b5c1db751629", "requestUri": "/idp/idx/authenticators/poll", "threatSuspected": "false", "enrollmentMethodChallengeTime": "2025-06-03T06:13:28.410Z", "url": "/idp/idx/authenticators/poll?"}}, "legacyEventType": "core.user.factor.deactivate", "transaction": {"type": "WEB", "id": "928bcfd59b3f86ba26fce5cb567b2d6d", "detail": {}}, "uuid": "e0316269-4041-11f0-a216-67ff8c2ff008", "version": "0", "request": {"ipChain": [{"ip": "49.236.212.182", "geographicalContext": {"city": "Kathmandu", "state": "Bagmati Province", "country": "Nepal", "postalCode": null, "geolocation": {"lat": 27.7108, "lon": 85.3251}}, "version": "V4", "source": null}]}, "target": [{"id": "00uryp2hh1yN1G372697", "type": "User", "alternateId": "test@test.com", "displayName": "Test User", "detailEntry": null}]}
+    {
+        "actor": {
+            "id": "00uryp2hh1yN1G372697",
+            "type": "User",
+            "alternateId": "test@test.com",
+            "displayName": "Test User",
+            "detailEntry": null
+        },
+        "client": {
+            "userAgent": {
+                "rawUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+                "os": "Mac OS X",
+                "browser": "CHROME"
+            },
+            "zone": "null",
+            "device": "Computer",
+            "id": null,
+            "ipAddress": "49.236.212.182",
+            "geographicalContext": {
+                "city": "Kathmandu",
+                "state": "Bagmati Province",
+                "country": "Nepal",
+                "postalCode": null,
+                "geolocation": {
+                    "lat": 27.7108,
+                    "lon": 85.3251
+                }
+            }
+        },
+        "device": {
+            "id": "guorygde34Y9VZk4I697",
+            "name": "Mac14,7",
+            "os_platform": "OSX",
+            "os_version": "14.7.0",
+            "managed": false,
+            "registered": true,
+            "device_integrator": null,
+            "disk_encryption_type": "ALL_INTERNAL_VOLUMES",
+            "screen_lock_type": "BIOMETRIC",
+            "jailbreak": null,
+            "secure_hardware_present": true
+        },
+        "authenticationContext": {
+            "authenticationProvider": null,
+            "credentialProvider": null,
+            "credentialType": null,
+            "issuer": null,
+            "interface": null,
+            "authenticationStep": 0,
+            "rootSessionId": "idxQXFSBIR0RB65HQqImfoKWg",
+            "externalSessionId": "idxQXFSBIR0RB65HQqImfoKWg"
+        },
+        "displayMessage": "Reset factor for user",
+        "eventType": "user.mfa.factor.deactivate",
+        "outcome": {
+            "result": "SUCCESS",
+            "reason": "User reset SIGNED_NONCE factor"
+        },
+        "published": "2025-06-03T06:13:32.683Z",
+        "securityContext": {
+            "asNumber": 55915,
+            "asOrg": "classictech pvt. ltd.",
+            "isp": "classic tech pvt. ltd.",
+            "domain": "prabhupay.com",
+            "isProxy": false
+        },
+        "severity": "INFO",
+        "debugContext": {
+            "debugData": {
+                "authnRequestId": "22d2efed8033b0f8723b498084010edf",
+                "requestId": "928bcfd59b3f86ba26fce5cb567b2d6d",
+                "dtHash": "d76a2f57e826cc0d16f780d2e006f2787932cb02fd1a51a77fe3b5c1db751629",
+                "requestUri": "/idp/idx/authenticators/poll",
+                "threatSuspected": "false",
+                "enrollmentMethodChallengeTime": "2025-06-03T06:13:28.410Z",
+                "url": "/idp/idx/authenticators/poll?"
+            }
+        },
+        "legacyEventType": "core.user.factor.deactivate",
+        "transaction": {
+            "type": "WEB",
+            "id": "928bcfd59b3f86ba26fce5cb567b2d6d",
+            "detail": {}
+        },
+        "uuid": "e030c627-4041-11f0-a216-67ff8c2ff008",
+        "version": "0",
+        "request": {
+            "ipChain": [
+                {
+                    "ip": "49.236.212.182",
+                    "geographicalContext": {
+                        "city": "Kathmandu",
+                        "state": "Bagmati Province",
+                        "country": "Nepal",
+                        "postalCode": null,
+                        "geolocation": {
+                            "lat": 27.7108,
+                            "lon": 85.3251
+                        }
+                    },
+                    "version": "V4",
+                    "source": null
+                }
+            ]
+        },
+        "target": [
+            {
+                "id": "00uryp2hh1yN1G372697",
+                "type": "User",
+                "alternateId": "test@test.com",
+                "displayName": "Test User",
+                "detailEntry": null
+            }
+        ]
+    },
+    {
+        "actor": {
+            "id": "00uryp2hh1yN1G372697",
+            "type": "User",
+            "alternateId": "test@test.com",
+            "displayName": "Test User",
+            "detailEntry": null
+        },
+        "client": {
+            "userAgent": {
+                "rawUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+                "os": "Mac OS X",
+                "browser": "CHROME"
+            },
+            "zone": "null",
+            "device": "Computer",
+            "id": null,
+            "ipAddress": "49.236.212.182",
+            "geographicalContext": {
+                "city": "Kathmandu",
+                "state": "Bagmati Province",
+                "country": "Nepal",
+                "postalCode": null,
+                "geolocation": {
+                    "lat": 27.7108,
+                    "lon": 85.3251
+                }
+            }
+        },
+        "device": {
+            "id": "guorygde34Y9VZk4I697",
+            "name": "Mac14,7",
+            "os_platform": "OSX",
+            "os_version": "14.7.0",
+            "managed": false,
+            "registered": true,
+            "device_integrator": null,
+            "disk_encryption_type": "ALL_INTERNAL_VOLUMES",
+            "screen_lock_type": "BIOMETRIC",
+            "jailbreak": null,
+            "secure_hardware_present": true
+        },
+        "authenticationContext": {
+            "authenticationProvider": null,
+            "credentialProvider": null,
+            "credentialType": null,
+            "issuer": null,
+            "interface": null,
+            "authenticationStep": 0,
+            "rootSessionId": "idxQXFSBIR0RB65HQqImfoKWg",
+            "externalSessionId": "idxQXFSBIR0RB65HQqImfoKWg"
+        },
+        "displayMessage": "Reset factor for user",
+        "eventType": "user.mfa.factor.deactivate",
+        "outcome": {
+            "result": "SUCCESS",
+            "reason": "User reset OKTA_VERIFY_PUSH factor"
+        },
+        "published": "2025-06-03T06:13:32.685Z",
+        "securityContext": {
+            "asNumber": 55915,
+            "asOrg": "classictech pvt. ltd.",
+            "isp": "classic tech pvt. ltd.",
+            "domain": "prabhupay.com",
+            "isProxy": false
+        },
+        "severity": "INFO",
+        "debugContext": {
+            "debugData": {
+                "authnRequestId": "22d2efed8033b0f8723b498084010edf",
+                "requestId": "928bcfd59b3f86ba26fce5cb567b2d6d",
+                "dtHash": "d76a2f57e826cc0d16f780d2e006f2787932cb02fd1a51a77fe3b5c1db751629",
+                "requestUri": "/idp/idx/authenticators/poll",
+                "threatSuspected": "false",
+                "enrollmentMethodChallengeTime": "2025-06-03T06:13:28.410Z",
+                "url": "/idp/idx/authenticators/poll?"
+            }
+        },
+        "legacyEventType": "core.user.factor.deactivate",
+        "transaction": {
+            "type": "WEB",
+            "id": "928bcfd59b3f86ba26fce5cb567b2d6d",
+            "detail": {}
+        },
+        "uuid": "e0311448-4041-11f0-a216-67ff8c2ff008",
+        "version": "0",
+        "request": {
+            "ipChain": [
+                {
+                    "ip": "49.236.212.182",
+                    "geographicalContext": {
+                        "city": "Kathmandu",
+                        "state": "Bagmati Province",
+                        "country": "Nepal",
+                        "postalCode": null,
+                        "geolocation": {
+                            "lat": 27.7108,
+                            "lon": 85.3251
+                        }
+                    },
+                    "version": "V4",
+                    "source": null
+                }
+            ]
+        },
+        "target": [
+            {
+                "id": "00uryp2hh1yN1G372697",
+                "type": "User",
+                "alternateId": "test@test.com",
+                "displayName": "Test User",
+                "detailEntry": null
+            }
+        ]
+    },
+    {
+        "actor": {
+            "id": "00uryp2hh1yN1G372697",
+            "type": "User",
+            "alternateId": "test@test.com",
+            "displayName": "Test User",
+            "detailEntry": null
+        },
+        "client": {
+            "userAgent": {
+                "rawUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+                "os": "Mac OS X",
+                "browser": "CHROME"
+            },
+            "zone": "null",
+            "device": "Computer",
+            "id": null,
+            "ipAddress": "49.236.212.182",
+            "geographicalContext": {
+                "city": "Kathmandu",
+                "state": "Bagmati Province",
+                "country": "Nepal",
+                "postalCode": null,
+                "geolocation": {
+                    "lat": 27.7108,
+                    "lon": 85.3251
+                }
+            }
+        },
+        "device": {
+            "id": "guorygde34Y9VZk4I697",
+            "name": "Mac14,7",
+            "os_platform": "OSX",
+            "os_version": "14.7.0",
+            "managed": false,
+            "registered": true,
+            "device_integrator": null,
+            "disk_encryption_type": "ALL_INTERNAL_VOLUMES",
+            "screen_lock_type": "BIOMETRIC",
+            "jailbreak": null,
+            "secure_hardware_present": true
+        },
+        "authenticationContext": {
+            "authenticationProvider": null,
+            "credentialProvider": null,
+            "credentialType": null,
+            "issuer": null,
+            "interface": null,
+            "authenticationStep": 0,
+            "rootSessionId": "idxQXFSBIR0RB65HQqImfoKWg",
+            "externalSessionId": "idxQXFSBIR0RB65HQqImfoKWg"
+        },
+        "displayMessage": "Reset factor for user",
+        "eventType": "user.mfa.factor.deactivate",
+        "outcome": {
+            "result": "SUCCESS",
+            "reason": "User reset OKTA_SOFT_TOKEN factor"
+        },
+        "published": "2025-06-03T06:13:32.687Z",
+        "securityContext": {
+            "asNumber": 55915,
+            "asOrg": "classictech pvt. ltd.",
+            "isp": "classic tech pvt. ltd.",
+            "domain": "prabhupay.com",
+            "isProxy": false
+        },
+        "severity": "INFO",
+        "debugContext": {
+            "debugData": {
+                "authnRequestId": "22d2efed8033b0f8723b498084010edf",
+                "requestId": "928bcfd59b3f86ba26fce5cb567b2d6d",
+                "dtHash": "d76a2f57e826cc0d16f780d2e006f2787932cb02fd1a51a77fe3b5c1db751629",
+                "requestUri": "/idp/idx/authenticators/poll",
+                "threatSuspected": "false",
+                "enrollmentMethodChallengeTime": "2025-06-03T06:13:28.410Z",
+                "url": "/idp/idx/authenticators/poll?"
+            }
+        },
+        "legacyEventType": "core.user.factor.deactivate",
+        "transaction": {
+            "type": "WEB",
+            "id": "928bcfd59b3f86ba26fce5cb567b2d6d",
+            "detail": {}
+        },
+        "uuid": "e0316269-4041-11f0-a216-67ff8c2ff008",
+        "version": "0",
+        "request": {
+            "ipChain": [
+                {
+                    "ip": "49.236.212.182",
+                    "geographicalContext": {
+                        "city": "Kathmandu",
+                        "state": "Bagmati Province",
+                        "country": "Nepal",
+                        "postalCode": null,
+                        "geolocation": {
+                            "lat": 27.7108,
+                            "lon": 85.3251
+                        }
+                    },
+                    "version": "V4",
+                    "source": null
+                }
+            ]
+        },
+        "target": [
+            {
+                "id": "00uryp2hh1yN1G372697",
+                "type": "User",
+                "alternateId": "test@test.com",
+                "displayName": "Test User",
+                "detailEntry": null
+            }
+        ]
+    }
 ]

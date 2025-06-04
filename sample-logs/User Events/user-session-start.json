@@ -1,1 +1,113 @@
-{"actor": {"id": "00uryg6r869Y1HdD1697", "type": "User", "alternateId": "hariram@testcompany.com.np", "displayName": "Ram Hari Dangol", "detailEntry": null}, "client": {"userAgent": {"rawUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36", "os": "Mac OS X", "browser": "CHROME"}, "zone": "null", "device": "Computer", "id": null, "ipAddress": "94.242.50.82", "geographicalContext": {"city": "St Petersburg", "state": "St.-Petersburg", "country": "Russia", "postalCode": "190000", "geolocation": {"lat": 59.8983, "lon": 30.2618}}}, "device": null, "authenticationContext": {"authenticationProvider": null, "credentialProvider": null, "credentialType": null, "issuer": null, "interface": null, "authenticationStep": 0, "rootSessionId": "idxRdOIlj38TS6zn7fgyEzxEA", "externalSessionId": "idxRdOIlj38TS6zn7fgyEzxEA"}, "displayMessage": "User login to Okta", "eventType": "user.session.start", "outcome": {"result": "SUCCESS", "reason": null}, "published": "2025-06-03T10:35:20.820Z", "securityContext": {"asNumber": 43317, "asOrg": "veesp datacenter clients", "isp": "sia veesp", "domain": "readsnk.com", "isProxy": false}, "severity": "INFO", "debugContext": {"debugData": {"authnRequestId": "84f02ce3d91f9ba14e15d15321cc8bbe", "oktaUserAgentExtended": "okta-auth-js/7.11.0 okta-signin-widget-7.31.1", "behaviors": "{New Geo-Location=POSITIVE, New Device=NEGATIVE, New IP=POSITIVE, New State=POSITIVE, New Country=POSITIVE, Velocity=POSITIVE, New City=POSITIVE}", "requestId": "3da2bfe16b2a571045085be8587e898a", "dtHash": "0335b48d281b79da6227d47f53cd260c60f4b125a8261f92f614b55d834c1fce", "origin": "https://trial-4299752.okta.com", "risk": "{reasons=Anomalous Location, level=MEDIUM}", "requestUri": "/idp/idx/challenge/answer", "threatSuspected": "false", "url": "/idp/idx/challenge/answer?"}}, "legacyEventType": "core.user_auth.login_success", "transaction": {"type": "WEB", "id": "3da2bfe16b2a571045085be8587e898a", "detail": {}}, "uuid": "72f84424-4066-11f0-905e-07fe2a1dc495", "version": "0", "request": {"ipChain": [{"ip": "94.242.50.82", "geographicalContext": {"city": "St Petersburg", "state": "St.-Petersburg", "country": "Russia", "postalCode": "190000", "geolocation": {"lat": 59.8983, "lon": 30.2618}}, "version": "V4", "source": null}]}, "target": [{"id": "lae2r6hbtskaNoGoo697", "type": "AuthenticatorEnrollment", "alternateId": "unknown", "displayName": "Password", "detailEntry": null}, {"id": "0oaryg6r5sl8ohyfZ697", "type": "AppInstance", "alternateId": "Okta Dashboard", "displayName": "Okta Dashboard", "detailEntry": null}]}
+{
+    "actor": {
+        "id": "00uryg6r869Y1HdD1697",
+        "type": "User",
+        "alternateId": "hariram@testcompany.com.np",
+        "displayName": "Ram Hari Dangol",
+        "detailEntry": null
+    },
+    "client": {
+        "userAgent": {
+            "rawUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+            "os": "Mac OS X",
+            "browser": "CHROME"
+        },
+        "zone": "null",
+        "device": "Computer",
+        "id": null,
+        "ipAddress": "94.242.50.82",
+        "geographicalContext": {
+            "city": "St Petersburg",
+            "state": "St.-Petersburg",
+            "country": "Russia",
+            "postalCode": "190000",
+            "geolocation": {
+                "lat": 59.8983,
+                "lon": 30.2618
+            }
+        }
+    },
+    "device": null,
+    "authenticationContext": {
+        "authenticationProvider": null,
+        "credentialProvider": null,
+        "credentialType": null,
+        "issuer": null,
+        "interface": null,
+        "authenticationStep": 0,
+        "rootSessionId": "idxRdOIlj38TS6zn7fgyEzxEA",
+        "externalSessionId": "idxRdOIlj38TS6zn7fgyEzxEA"
+    },
+    "displayMessage": "User login to Okta",
+    "eventType": "user.session.start",
+    "outcome": {
+        "result": "SUCCESS",
+        "reason": null
+    },
+    "published": "2025-06-03T10:35:20.820Z",
+    "securityContext": {
+        "asNumber": 43317,
+        "asOrg": "veesp datacenter clients",
+        "isp": "sia veesp",
+        "domain": "readsnk.com",
+        "isProxy": false
+    },
+    "severity": "INFO",
+    "debugContext": {
+        "debugData": {
+            "authnRequestId": "84f02ce3d91f9ba14e15d15321cc8bbe",
+            "oktaUserAgentExtended": "okta-auth-js/7.11.0 okta-signin-widget-7.31.1",
+            "behaviors": "{New Geo-Location=POSITIVE, New Device=NEGATIVE, New IP=POSITIVE, New State=POSITIVE, New Country=POSITIVE, Velocity=POSITIVE, New City=POSITIVE}",
+            "requestId": "3da2bfe16b2a571045085be8587e898a",
+            "dtHash": "0335b48d281b79da6227d47f53cd260c60f4b125a8261f92f614b55d834c1fce",
+            "origin": "https://trial-4299752.okta.com",
+            "risk": "{reasons=Anomalous Location, level=MEDIUM}",
+            "requestUri": "/idp/idx/challenge/answer",
+            "threatSuspected": "false",
+            "url": "/idp/idx/challenge/answer?"
+        }
+    },
+    "legacyEventType": "core.user_auth.login_success",
+    "transaction": {
+        "type": "WEB",
+        "id": "3da2bfe16b2a571045085be8587e898a",
+        "detail": {}
+    },
+    "uuid": "72f84424-4066-11f0-905e-07fe2a1dc495",
+    "version": "0",
+    "request": {
+        "ipChain": [
+            {
+                "ip": "94.242.50.82",
+                "geographicalContext": {
+                    "city": "St Petersburg",
+                    "state": "St.-Petersburg",
+                    "country": "Russia",
+                    "postalCode": "190000",
+                    "geolocation": {
+                        "lat": 59.8983,
+                        "lon": 30.2618
+                    }
+                },
+                "version": "V4",
+                "source": null
+            }
+        ]
+    },
+    "target": [
+        {
+            "id": "lae2r6hbtskaNoGoo697",
+            "type": "AuthenticatorEnrollment",
+            "alternateId": "unknown",
+            "displayName": "Password",
+            "detailEntry": null
+        },
+        {
+            "id": "0oaryg6r5sl8ohyfZ697",
+            "type": "AppInstance",
+            "alternateId": "Okta Dashboard",
+            "displayName": "Okta Dashboard",
+            "detailEntry": null
+        }
+    ]
+}

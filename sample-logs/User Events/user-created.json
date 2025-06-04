@@ -1,1 +1,101 @@
-{"actor": {"id": "00uryg6r869Y1HdD1697", "type": "User", "alternateId": "hariram@testcompany.com.np", "displayName": "Ram Hari Dangol", "detailEntry": null}, "client": {"userAgent": {"rawUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36", "os": "Mac OS X", "browser": "CHROME"}, "zone": "null", "device": "Computer", "id": null, "ipAddress": "62.210.95.122", "geographicalContext": {"city": "Paris", "state": "\u00cele-de-France", "country": "France", "postalCode": "75008", "geolocation": {"lat": 48.8558, "lon": 2.3494}}}, "device": null, "authenticationContext": {"authenticationProvider": null, "credentialProvider": null, "credentialType": null, "issuer": null, "interface": null, "authenticationStep": 0, "rootSessionId": "102ouNBiZKeRbmCd-YZneW7fg", "externalSessionId": "102ouNBiZKeRbmCd-YZneW7fg"}, "displayMessage": "Create okta user", "eventType": "user.lifecycle.create", "outcome": {"result": "SUCCESS", "reason": null}, "published": "2025-06-02T10:25:24.583Z", "securityContext": {"asNumber": 12876, "asOrg": "online sas", "isp": "scaleway s.a.s.", "domain": "scw.cloud", "isProxy": true}, "severity": "INFO", "debugContext": {"debugData": {"tunnels": "[{\"anonymous\":true,\"operator\":\"VEEPN_VPN\",\"type\":\"VPN\"}]", "requestId": "ff419328003d0714d6886a870e6bcecc", "dtHash": "e09ce4ac78747847ca3e315a9cdfea648ac0962dbb24374fb3904fe2bbc32744", "requestUri": "/api/v1/users", "url": "/api/v1/users?activate=true"}}, "legacyEventType": "core.user.config.user_creation.success", "transaction": {"type": "WEB", "id": "ff419328003d0714d6886a870e6bcecc", "detail": {}}, "uuid": "e52bf86d-3f9b-11f0-a1c3-b7f1cc7758c8", "version": "0", "request": {"ipChain": [{"ip": "62.210.95.122", "geographicalContext": {"city": "Paris", "state": "\u00cele-de-France", "country": "France", "postalCode": "75008", "geolocation": {"lat": 48.8558, "lon": 2.3494}}, "version": "V4", "source": null}]}, "target": [{"id": "00uryp2hh1yN1G372697", "type": "User", "alternateId": "test@test.com", "displayName": "Test User", "detailEntry": null}]}
+{
+    "actor": {
+        "id": "00uryg6r869Y1HdD1697",
+        "type": "User",
+        "alternateId": "hariram@testcompany.com.np",
+        "displayName": "Ram Hari Dangol",
+        "detailEntry": null
+    },
+    "client": {
+        "userAgent": {
+            "rawUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+            "os": "Mac OS X",
+            "browser": "CHROME"
+        },
+        "zone": "null",
+        "device": "Computer",
+        "id": null,
+        "ipAddress": "62.210.95.122",
+        "geographicalContext": {
+            "city": "Paris",
+            "state": "\u00cele-de-France",
+            "country": "France",
+            "postalCode": "75008",
+            "geolocation": {
+                "lat": 48.8558,
+                "lon": 2.3494
+            }
+        }
+    },
+    "device": null,
+    "authenticationContext": {
+        "authenticationProvider": null,
+        "credentialProvider": null,
+        "credentialType": null,
+        "issuer": null,
+        "interface": null,
+        "authenticationStep": 0,
+        "rootSessionId": "102ouNBiZKeRbmCd-YZneW7fg",
+        "externalSessionId": "102ouNBiZKeRbmCd-YZneW7fg"
+    },
+    "displayMessage": "Create okta user",
+    "eventType": "user.lifecycle.create",
+    "outcome": {
+        "result": "SUCCESS",
+        "reason": null
+    },
+    "published": "2025-06-02T10:25:24.583Z",
+    "securityContext": {
+        "asNumber": 12876,
+        "asOrg": "online sas",
+        "isp": "scaleway s.a.s.",
+        "domain": "scw.cloud",
+        "isProxy": true
+    },
+    "severity": "INFO",
+    "debugContext": {
+        "debugData": {
+            "tunnels": "[{\"anonymous\":true,\"operator\":\"VEEPN_VPN\",\"type\":\"VPN\"}]",
+            "requestId": "ff419328003d0714d6886a870e6bcecc",
+            "dtHash": "e09ce4ac78747847ca3e315a9cdfea648ac0962dbb24374fb3904fe2bbc32744",
+            "requestUri": "/api/v1/users",
+            "url": "/api/v1/users?activate=true"
+        }
+    },
+    "legacyEventType": "core.user.config.user_creation.success",
+    "transaction": {
+        "type": "WEB",
+        "id": "ff419328003d0714d6886a870e6bcecc",
+        "detail": {}
+    },
+    "uuid": "e52bf86d-3f9b-11f0-a1c3-b7f1cc7758c8",
+    "version": "0",
+    "request": {
+        "ipChain": [
+            {
+                "ip": "62.210.95.122",
+                "geographicalContext": {
+                    "city": "Paris",
+                    "state": "\u00cele-de-France",
+                    "country": "France",
+                    "postalCode": "75008",
+                    "geolocation": {
+                        "lat": 48.8558,
+                        "lon": 2.3494
+                    }
+                },
+                "version": "V4",
+                "source": null
+            }
+        ]
+    },
+    "target": [
+        {
+            "id": "00uryp2hh1yN1G372697",
+            "type": "User",
+            "alternateId": "test@test.com",
+            "displayName": "Test User",
+            "detailEntry": null
+        }
+    ]
+}

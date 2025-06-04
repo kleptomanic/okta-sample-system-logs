@@ -1,1 +1,66 @@
-{"actor": {"id": "00uryg6r869Y1HdD1697", "type": "User", "alternateId": "hariram@testcompany.com.np", "displayName": "Ram Hari Dangol", "detailEntry": null}, "client": {"userAgent": null, "zone": null, "device": null, "id": null, "ipAddress": null, "geographicalContext": null}, "device": null, "authenticationContext": {"authenticationProvider": null, "credentialProvider": null, "credentialType": null, "issuer": null, "interface": null, "authenticationStep": 0, "rootSessionId": "102ouNBiZKeRbmCd-YZneW7fg", "externalSessionId": "trsI6fQafxTS_i2hwWIwYpFzg"}, "displayMessage": "Activate Okta user", "eventType": "user.lifecycle.activate", "outcome": {"result": "SUCCESS", "reason": null}, "published": "2025-06-02T10:32:34.162Z", "securityContext": {"asNumber": null, "asOrg": null, "isp": null, "domain": null, "isProxy": null}, "severity": "INFO", "debugContext": {"debugData": {}}, "legacyEventType": "core.user.config.user_activated", "transaction": {"type": "JOB", "id": "pujrypbfg5S4HvuW0697", "detail": {}}, "uuid": "e538856f-3f9c-11f0-af67-071cbae4ad39", "version": "0", "request": {"ipChain": []}, "target": [{"id": "00uryp2hh1yN1G372697", "type": "User", "alternateId": "test@test.com", "displayName": "Test User", "detailEntry": null}]}
+{
+    "actor": {
+        "id": "00uryg6r869Y1HdD1697",
+        "type": "User",
+        "alternateId": "hariram@testcompany.com.np",
+        "displayName": "Ram Hari Dangol",
+        "detailEntry": null
+    },
+    "client": {
+        "userAgent": null,
+        "zone": null,
+        "device": null,
+        "id": null,
+        "ipAddress": null,
+        "geographicalContext": null
+    },
+    "device": null,
+    "authenticationContext": {
+        "authenticationProvider": null,
+        "credentialProvider": null,
+        "credentialType": null,
+        "issuer": null,
+        "interface": null,
+        "authenticationStep": 0,
+        "rootSessionId": "102ouNBiZKeRbmCd-YZneW7fg",
+        "externalSessionId": "trsI6fQafxTS_i2hwWIwYpFzg"
+    },
+    "displayMessage": "Activate Okta user",
+    "eventType": "user.lifecycle.activate",
+    "outcome": {
+        "result": "SUCCESS",
+        "reason": null
+    },
+    "published": "2025-06-02T10:32:34.162Z",
+    "securityContext": {
+        "asNumber": null,
+        "asOrg": null,
+        "isp": null,
+        "domain": null,
+        "isProxy": null
+    },
+    "severity": "INFO",
+    "debugContext": {
+        "debugData": {}
+    },
+    "legacyEventType": "core.user.config.user_activated",
+    "transaction": {
+        "type": "JOB",
+        "id": "pujrypbfg5S4HvuW0697",
+        "detail": {}
+    },
+    "uuid": "e538856f-3f9c-11f0-af67-071cbae4ad39",
+    "version": "0",
+    "request": {
+        "ipChain": []
+    },
+    "target": [
+        {
+            "id": "00uryp2hh1yN1G372697",
+            "type": "User",
+            "alternateId": "test@test.com",
+            "displayName": "Test User",
+            "detailEntry": null
+        }
+    ]
+}

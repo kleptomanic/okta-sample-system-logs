@@ -1,1 +1,113 @@
-{"actor": {"id": "00uryg6r869Y1HdD1697", "type": "User", "alternateId": "hariram@testcompany.com.np", "displayName": "Ram Hari Dangol", "detailEntry": null}, "client": {"userAgent": {"rawUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36", "os": "Mac OS X", "browser": "CHROME"}, "zone": "null", "device": "Computer", "id": null, "ipAddress": "49.236.212.182", "geographicalContext": {"city": "Kathmandu", "state": "Bagmati Province", "country": "Nepal", "postalCode": null, "geolocation": {"lat": 27.7108, "lon": 85.3251}}}, "device": {"id": "guorygde34Y9VZk4I697", "name": "Mac14,7", "os_platform": "MACOS", "os_version": "14.7.0", "managed": false, "registered": true, "device_integrator": null, "disk_encryption_type": null, "screen_lock_type": null, "jailbreak": null, "secure_hardware_present": null}, "authenticationContext": {"authenticationProvider": null, "credentialProvider": null, "credentialType": null, "issuer": null, "interface": null, "authenticationStep": 0, "rootSessionId": "idxBC4Eb82eS9qEeIWNEMo_vg", "externalSessionId": "idxBC4Eb82eS9qEeIWNEMo_vg"}, "displayMessage": "User logout from Okta", "eventType": "user.session.end", "outcome": {"result": "SUCCESS", "reason": null}, "published": "2025-06-03T10:34:47.732Z", "securityContext": {"asNumber": 55915, "asOrg": "classictech pvt. ltd.", "isp": "classic tech pvt. ltd.", "domain": "prabhupay.com", "isProxy": false}, "severity": "INFO", "debugContext": {"debugData": {"requestId": "5d1040ad90a52ad9a9eab8b03b8b5b5d", "dtHash": "d76a2f57e826cc0d16f780d2e006f2787932cb02fd1a51a77fe3b5c1db751629", "requestUri": "/login/signout", "threatSuspected": "false", "url": "/login/signout?fromAdmin=true"}}, "legacyEventType": "core.user_auth.logout_success", "transaction": {"type": "WEB", "id": "5d1040ad90a52ad9a9eab8b03b8b5b5d", "detail": {}}, "uuid": "5f3f7022-4066-11f0-824f-f391368fe4c1", "version": "0", "request": {"ipChain": [{"ip": "49.236.212.182", "geographicalContext": {"city": "Kathmandu", "state": "Bagmati Province", "country": "Nepal", "postalCode": null, "geolocation": {"lat": 27.7108, "lon": 85.3251}}, "version": "V4", "source": null}]}, "target": [{"id": "00uryg6r869Y1HdD1697", "type": "User", "alternateId": "hariram@testcompany.com.np", "displayName": "Ram Hari Dangol", "detailEntry": null}]}
+{
+    "actor": {
+        "id": "00uryg6r869Y1HdD1697",
+        "type": "User",
+        "alternateId": "hariram@testcompany.com.np",
+        "displayName": "Ram Hari Dangol",
+        "detailEntry": null
+    },
+    "client": {
+        "userAgent": {
+            "rawUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36",
+            "os": "Mac OS X",
+            "browser": "CHROME"
+        },
+        "zone": "null",
+        "device": "Computer",
+        "id": null,
+        "ipAddress": "49.236.212.182",
+        "geographicalContext": {
+            "city": "Kathmandu",
+            "state": "Bagmati Province",
+            "country": "Nepal",
+            "postalCode": null,
+            "geolocation": {
+                "lat": 27.7108,
+                "lon": 85.3251
+            }
+        }
+    },
+    "device": {
+        "id": "guorygde34Y9VZk4I697",
+        "name": "Mac14,7",
+        "os_platform": "MACOS",
+        "os_version": "14.7.0",
+        "managed": false,
+        "registered": true,
+        "device_integrator": null,
+        "disk_encryption_type": null,
+        "screen_lock_type": null,
+        "jailbreak": null,
+        "secure_hardware_present": null
+    },
+    "authenticationContext": {
+        "authenticationProvider": null,
+        "credentialProvider": null,
+        "credentialType": null,
+        "issuer": null,
+        "interface": null,
+        "authenticationStep": 0,
+        "rootSessionId": "idxBC4Eb82eS9qEeIWNEMo_vg",
+        "externalSessionId": "idxBC4Eb82eS9qEeIWNEMo_vg"
+    },
+    "displayMessage": "User logout from Okta",
+    "eventType": "user.session.end",
+    "outcome": {
+        "result": "SUCCESS",
+        "reason": null
+    },
+    "published": "2025-06-03T10:34:47.732Z",
+    "securityContext": {
+        "asNumber": 55915,
+        "asOrg": "classictech pvt. ltd.",
+        "isp": "classic tech pvt. ltd.",
+        "domain": "prabhupay.com",
+        "isProxy": false
+    },
+    "severity": "INFO",
+    "debugContext": {
+        "debugData": {
+            "requestId": "5d1040ad90a52ad9a9eab8b03b8b5b5d",
+            "dtHash": "d76a2f57e826cc0d16f780d2e006f2787932cb02fd1a51a77fe3b5c1db751629",
+            "requestUri": "/login/signout",
+            "threatSuspected": "false",
+            "url": "/login/signout?fromAdmin=true"
+        }
+    },
+    "legacyEventType": "core.user_auth.logout_success",
+    "transaction": {
+        "type": "WEB",
+        "id": "5d1040ad90a52ad9a9eab8b03b8b5b5d",
+        "detail": {}
+    },
+    "uuid": "5f3f7022-4066-11f0-824f-f391368fe4c1",
+    "version": "0",
+    "request": {
+        "ipChain": [
+            {
+                "ip": "49.236.212.182",
+                "geographicalContext": {
+                    "city": "Kathmandu",
+                    "state": "Bagmati Province",
+                    "country": "Nepal",
+                    "postalCode": null,
+                    "geolocation": {
+                        "lat": 27.7108,
+                        "lon": 85.3251
+                    }
+                },
+                "version": "V4",
+                "source": null
+            }
+        ]
+    },
+    "target": [
+        {
+            "id": "00uryg6r869Y1HdD1697",
+            "type": "User",
+            "alternateId": "hariram@testcompany.com.np",
+            "displayName": "Ram Hari Dangol",
+            "detailEntry": null
+        }
+    ]
+}

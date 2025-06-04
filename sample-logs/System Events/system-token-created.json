@@ -1,1 +1,103 @@
-{"actor": {"id": "00uryg6r869Y1HdD1697", "type": "User", "alternateId": "hariram@testcompany.com.np", "displayName": "Ram Hari Dangol", "detailEntry": null}, "client": {"userAgent": {"rawUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:137.0) Gecko/20100101 Firefox/137.0", "os": "Mac OS X", "browser": "FIREFOX"}, "zone": "null", "device": "Computer", "id": null, "ipAddress": "49.236.212.182", "geographicalContext": {"city": "Kathmandu", "state": "Bagmati Province", "country": "Nepal", "postalCode": null, "geolocation": {"lat": 27.7108, "lon": 85.3251}}}, "device": null, "authenticationContext": {"authenticationProvider": null, "credentialProvider": null, "credentialType": null, "issuer": null, "interface": null, "authenticationStep": 0, "rootSessionId": "102hGyaai34Ta2INeosWbPmsQ", "externalSessionId": "102hGyaai34Ta2INeosWbPmsQ"}, "displayMessage": "Create API token", "eventType": "system.api_token.create", "outcome": {"result": "SUCCESS", "reason": null}, "published": "2025-06-02T09:35:14.782Z", "securityContext": {"asNumber": 55915, "asOrg": "classictech pvt. ltd.", "isp": "classic tech pvt. ltd.", "domain": "prabhupay.com", "isProxy": false}, "severity": "INFO", "debugContext": {"debugData": {"concurrencyPercentage": "50", "requestId": "372744ec19da950402a8d5ce6671ad71", "dtHash": "9a2f21aad463a2b64125ab75ceeb62abbafe139ac35096f413175d4186db7751", "rateLimitPercentage": "50", "networkConnection": "ANYWHERE", "requestUri": "/api/internal/tokens", "url": "/api/internal/tokens?expand=user"}}, "legacyEventType": "api.token.create", "transaction": {"type": "WEB", "id": "372744ec19da950402a8d5ce6671ad71", "detail": {}}, "uuid": "e330c803-3f94-11f0-a736-3f8d29cebe17", "version": "0", "request": {"ipChain": [{"ip": "49.236.212.182", "geographicalContext": {"city": "Kathmandu", "state": "Bagmati Province", "country": "Nepal", "postalCode": null, "geolocation": {"lat": 27.7108, "lon": 85.3251}}, "version": "V4", "source": null}]}, "target": [{"id": "00T2r6xcpq9TOKtqq697", "type": "Token", "alternateId": "unknown", "displayName": "justfortest", "detailEntry": null}]}
+{
+    "actor": {
+        "id": "00uryg6r869Y1HdD1697",
+        "type": "User",
+        "alternateId": "hariram@testcompany.com.np",
+        "displayName": "Ram Hari Dangol",
+        "detailEntry": null
+    },
+    "client": {
+        "userAgent": {
+            "rawUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:137.0) Gecko/20100101 Firefox/137.0",
+            "os": "Mac OS X",
+            "browser": "FIREFOX"
+        },
+        "zone": "null",
+        "device": "Computer",
+        "id": null,
+        "ipAddress": "49.236.212.182",
+        "geographicalContext": {
+            "city": "Kathmandu",
+            "state": "Bagmati Province",
+            "country": "Nepal",
+            "postalCode": null,
+            "geolocation": {
+                "lat": 27.7108,
+                "lon": 85.3251
+            }
+        }
+    },
+    "device": null,
+    "authenticationContext": {
+        "authenticationProvider": null,
+        "credentialProvider": null,
+        "credentialType": null,
+        "issuer": null,
+        "interface": null,
+        "authenticationStep": 0,
+        "rootSessionId": "102hGyaai34Ta2INeosWbPmsQ",
+        "externalSessionId": "102hGyaai34Ta2INeosWbPmsQ"
+    },
+    "displayMessage": "Create API token",
+    "eventType": "system.api_token.create",
+    "outcome": {
+        "result": "SUCCESS",
+        "reason": null
+    },
+    "published": "2025-06-02T09:35:14.782Z",
+    "securityContext": {
+        "asNumber": 55915,
+        "asOrg": "classictech pvt. ltd.",
+        "isp": "classic tech pvt. ltd.",
+        "domain": "prabhupay.com",
+        "isProxy": false
+    },
+    "severity": "INFO",
+    "debugContext": {
+        "debugData": {
+            "concurrencyPercentage": "50",
+            "requestId": "372744ec19da950402a8d5ce6671ad71",
+            "dtHash": "9a2f21aad463a2b64125ab75ceeb62abbafe139ac35096f413175d4186db7751",
+            "rateLimitPercentage": "50",
+            "networkConnection": "ANYWHERE",
+            "requestUri": "/api/internal/tokens",
+            "url": "/api/internal/tokens?expand=user"
+        }
+    },
+    "legacyEventType": "api.token.create",
+    "transaction": {
+        "type": "WEB",
+        "id": "372744ec19da950402a8d5ce6671ad71",
+        "detail": {}
+    },
+    "uuid": "e330c803-3f94-11f0-a736-3f8d29cebe17",
+    "version": "0",
+    "request": {
+        "ipChain": [
+            {
+                "ip": "49.236.212.182",
+                "geographicalContext": {
+                    "city": "Kathmandu",
+                    "state": "Bagmati Province",
+                    "country": "Nepal",
+                    "postalCode": null,
+                    "geolocation": {
+                        "lat": 27.7108,
+                        "lon": 85.3251
+                    }
+                },
+                "version": "V4",
+                "source": null
+            }
+        ]
+    },
+    "target": [
+        {
+            "id": "00T2r6xcpq9TOKtqq697",
+            "type": "Token",
+            "alternateId": "unknown",
+            "displayName": "justfortest",
+            "detailEntry": null
+        }
+    ]
+}

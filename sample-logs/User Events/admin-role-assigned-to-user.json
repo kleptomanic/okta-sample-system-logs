@@ -1,1 +1,96 @@
-{"actor": {"id": "00uryg6r869Y1HdD1697", "type": "User", "alternateId": "hariram@testcompany.com.np", "displayName": "Ram Hari Dangol", "detailEntry": null}, "client": {"userAgent": null, "zone": null, "device": null, "id": null, "ipAddress": null, "geographicalContext": null}, "device": null, "authenticationContext": {"authenticationProvider": null, "credentialProvider": null, "credentialType": null, "issuer": null, "interface": null, "authenticationStep": 0, "rootSessionId": "trs5KPXb9rjT5u52xsPOnxm2Q", "externalSessionId": "trs-ArZrHgBTEy8e3B-1-qgYQ"}, "displayMessage": "Grant user privilege", "eventType": "user.account.privilege.grant", "outcome": {"result": "SUCCESS", "reason": null}, "published": "2025-06-02T18:04:10.140Z", "securityContext": {"asNumber": null, "asOrg": null, "isp": null, "domain": null, "isProxy": null}, "severity": "INFO", "debugContext": {"debugData": {"privilegeGranted": "Super administrator, Organization administrator, Help Desk administrator"}}, "legacyEventType": "core.user.admin_privilege.granted", "transaction": {"type": null, "id": "unknown", "detail": {}}, "uuid": "fbaea5eb-3fdb-11f0-85d7-7b47bb59bd7c", "version": "0", "request": {"ipChain": []}, "target": [{"id": "00uryg6r869Y1HdD1697", "type": "User", "alternateId": "hariram@testcompany.com.np", "displayName": "Ram Hari Dangol", "detailEntry": null}, {"id": "ROLE_ASSIGNED_GROUP_MEMBERSHIP_CHANGE", "type": "ROLE_ASSIGNED_GROUP_MEMBERSHIP_CHANGE", "alternateId": "unknown", "displayName": "Role Assigned from new Group Membership", "detailEntry": null}, {"id": "OrgAdmin", "type": "ROLE", "alternateId": "J5JEOX2BIRGUSTQ", "displayName": "Organization Administrator", "detailEntry": null}, {"id": "HelpDeskAdmin", "type": "ROLE", "alternateId": "JBCUYUC7IRCVGS27IFCE2SKO", "displayName": "Help Desk Administrator", "detailEntry": null}, {"id": "00gryp1uc6ol6EDYb697", "type": "TARGET_RESOURCE", "alternateId": "/admin/group/00gryp1uc6ol6EDYb697", "displayName": "TestGroup", "detailEntry": null}]}
+{
+    "actor": {
+        "id": "00uryg6r869Y1HdD1697",
+        "type": "User",
+        "alternateId": "hariram@testcompany.com.np",
+        "displayName": "Ram Hari Dangol",
+        "detailEntry": null
+    },
+    "client": {
+        "userAgent": null,
+        "zone": null,
+        "device": null,
+        "id": null,
+        "ipAddress": null,
+        "geographicalContext": null
+    },
+    "device": null,
+    "authenticationContext": {
+        "authenticationProvider": null,
+        "credentialProvider": null,
+        "credentialType": null,
+        "issuer": null,
+        "interface": null,
+        "authenticationStep": 0,
+        "rootSessionId": "trs5KPXb9rjT5u52xsPOnxm2Q",
+        "externalSessionId": "trs-ArZrHgBTEy8e3B-1-qgYQ"
+    },
+    "displayMessage": "Grant user privilege",
+    "eventType": "user.account.privilege.grant",
+    "outcome": {
+        "result": "SUCCESS",
+        "reason": null
+    },
+    "published": "2025-06-02T18:04:10.140Z",
+    "securityContext": {
+        "asNumber": null,
+        "asOrg": null,
+        "isp": null,
+        "domain": null,
+        "isProxy": null
+    },
+    "severity": "INFO",
+    "debugContext": {
+        "debugData": {
+            "privilegeGranted": "Super administrator, Organization administrator, Help Desk administrator"
+        }
+    },
+    "legacyEventType": "core.user.admin_privilege.granted",
+    "transaction": {
+        "type": null,
+        "id": "unknown",
+        "detail": {}
+    },
+    "uuid": "fbaea5eb-3fdb-11f0-85d7-7b47bb59bd7c",
+    "version": "0",
+    "request": {
+        "ipChain": []
+    },
+    "target": [
+        {
+            "id": "00uryg6r869Y1HdD1697",
+            "type": "User",
+            "alternateId": "hariram@testcompany.com.np",
+            "displayName": "Ram Hari Dangol",
+            "detailEntry": null
+        },
+        {
+            "id": "ROLE_ASSIGNED_GROUP_MEMBERSHIP_CHANGE",
+            "type": "ROLE_ASSIGNED_GROUP_MEMBERSHIP_CHANGE",
+            "alternateId": "unknown",
+            "displayName": "Role Assigned from new Group Membership",
+            "detailEntry": null
+        },
+        {
+            "id": "OrgAdmin",
+            "type": "ROLE",
+            "alternateId": "J5JEOX2BIRGUSTQ",
+            "displayName": "Organization Administrator",
+            "detailEntry": null
+        },
+        {
+            "id": "HelpDeskAdmin",
+            "type": "ROLE",
+            "alternateId": "JBCUYUC7IRCVGS27IFCE2SKO",
+            "displayName": "Help Desk Administrator",
+            "detailEntry": null
+        },
+        {
+            "id": "00gryp1uc6ol6EDYb697",
+            "type": "TARGET_RESOURCE",
+            "alternateId": "/admin/group/00gryp1uc6ol6EDYb697",
+            "displayName": "TestGroup",
+            "detailEntry": null
+        }
+    ]
+}
