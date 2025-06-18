@@ -1,0 +1,102 @@
+{
+  "actor": {
+    "id": "00uryg6r869Y1HdD1697",
+    "type": "User",
+    "alternateId": "hariram@testcompany.com.np",
+    "displayName": "Ram Hari Dangol",
+    "detailEntry": null
+  },
+  "client": {
+    "userAgent": {
+      "rawUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:138.0) Gecko/20100101 Firefox/138.0",
+      "os": "Mac OS X",
+      "browser": "FIREFOX"
+    },
+    "zone": "null",
+    "device": "Computer",
+    "id": null,
+    "ipAddress": "49.236.212.182",
+    "geographicalContext": {
+      "city": "Kathmandu",
+      "state": "Bagmati Province",
+      "country": "Nepal",
+      "postalCode": null,
+      "geolocation": {
+        "lat": 27.7108,
+        "lon": 85.3251
+      }
+    }
+  },
+  "device": null,
+  "authenticationContext": {
+    "authenticationProvider": null,
+    "credentialProvider": null,
+    "credentialType": null,
+    "issuer": null,
+    "interface": null,
+    "authenticationStep": 0,
+    "rootSessionId": "idxFlURKmAvTbW9sFqI2YQPfA",
+    "externalSessionId": "idxFlURKmAvTbW9sFqI2YQPfA"
+  },
+  "displayMessage": "User attempted unauthorized access to app",
+  "eventType": "app.generic.unauth_app_access_attempt",
+  "outcome": {
+    "result": "FAILURE",
+    "reason": null
+  },
+  "published": "2025-06-18T04:14:20.015Z",
+  "securityContext": {
+    "asNumber": 55915,
+    "asOrg": "classictech pvt. ltd.",
+    "isp": "classic tech pvt. ltd.",
+    "domain": "prabhupay.com",
+    "isProxy": false
+  },
+  "severity": "WARN",
+  "debugContext": {
+    "debugData": {
+      "authnRequestId": "133e56a6e0dc4e386883efd4164c0c16",
+      "requestId": "133e56a6e0dc4e386883efd4164c0c16",
+      "dtHash": "b4bad70ce035681c2feec9eb0f1f1760eb864a2956a49b8bc4c34cd9f18fde6e",
+      "requestUri": "/app/trial-4299752_logpointtest_1/exksfnzfxzZ7liKfw697/sso/saml",
+      "threatSuspected": "false",
+      "url": "/app/trial-4299752_logpointtest_1/exksfnzfxzZ7liKfw697/sso/saml?SAMLRequest=fVJbb9owFH7nV0R5TxxnCRALkFjZBY0BKmwPfUEmOaFWHdvzcVrWX784Xdcxafjx%2BHxXe4K8kYbNW3evbuFHC%2BgGQXBupELWX03D1iqmOQpkijeAzJVsN%2F%2B6YmmcMGO106WW4QXoOoYjgnVCKw9aLqbhZv1htfm0XB%2BKhKYpz8YFh5wfR2mVv8uHNM%2Byglc1TYc51ADJkXrgd7DYcUzDjrInQmxhqdBx5bphkuZRMozoeJ9kjGYsHd%2F5rUWXTyjueuS9cwYZIc4KLqMsLYpRnsb6wfG41A3hxlxeHaQ%2BGS2Ucx3LgRI4P2Ctnuvz891Iii%2F107AYEURNfAdebfu7nfdCVUKdrtdyfFlC9nm%2F30bbzW7vKeavZd1ohW0Ddgf2UZTw7Xb1FkCKR6ig0fGrwd6%2Fke3pxI8SkPjnBeVE2ScnXvOfUYcUKpx1ikEw8f5ZX6idXdeYkL9339CGrbuAy8VWS1H%2B7Of%2BfNS24e7%2FPdCY9hNRRXW%2FylqFBkpRC6jCPzRzKfXTjQXuYBo620IYkNlg8GLm8jPPfgE%3D&RelayState=e8ea44d2-bf38-4484-843e-d77c1870edf7_68523d07295e641cb797216a"
+    }
+  },
+  "legacyEventType": "app.generic.unauth_app_access_attempt",
+  "transaction": {
+    "type": "WEB",
+    "id": "133e56a6e0dc4e386883efd4164c0c16",
+    "detail": {}
+  },
+  "uuid": "b5108085-4bfa-11f0-acbc-5bb3dfa48cfc",
+  "version": "0",
+  "request": {
+    "ipChain": [
+      {
+        "ip": "49.236.212.182",
+        "geographicalContext": {
+          "city": "Kathmandu",
+          "state": "Bagmati Province",
+          "country": "Nepal",
+          "postalCode": null,
+          "geolocation": {
+            "lat": 27.7108,
+            "lon": 85.3251
+          }
+        },
+        "version": "V4",
+        "source": null
+      }
+    ]
+  },
+  "target": [
+    {
+      "id": "0oasfnzfy1UJqbZF4697",
+      "type": "AppInstance",
+      "alternateId": "TestApplication",
+      "displayName": "TestApplication",
+      "detailEntry": null
+    }
+  ]
+}
